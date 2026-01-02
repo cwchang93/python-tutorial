@@ -42,6 +42,7 @@ python src/main.py
 ```
 
 This will:
+
 - ✅ Read and clean the data
 - ✅ Generate statistics
 - ✅ Create a chart (`output/top_breeds.png`)
@@ -52,26 +53,31 @@ This will:
 ## 📊 Usage Examples
 
 ### Example 1: Basic Analysis (No Filters)
+
 ```bash
 python src/main.py
 ```
 
 ### Example 2: Filter by City
+
 ```bash
 python src/main.py --city 台北
 ```
 
 ### Example 3: Filter by Age Range
+
 ```bash
 python src/main.py --min-age 2 --max-age 5
 ```
 
 ### Example 4: Show Only Adopted Dogs
+
 ```bash
 python src/main.py --adopted true --sort-by age
 ```
 
 ### Example 5: Complex Filter with Sorting
+
 ```bash
 python src/main.py --city 台中 --min-age 3 --sort-by weight_kg --desc
 ```
@@ -80,14 +86,14 @@ python src/main.py --city 台中 --min-age 3 --sort-by weight_kg --desc
 
 ## 🎯 Command Line Options
 
-| Option | Description | Example |
-|--------|-------------|---------|
-| `--city` | Filter by city name | `--city 台北` |
-| `--min-age` | Minimum age (years) | `--min-age 2` |
-| `--max-age` | Maximum age (years) | `--max-age 5` |
-| `--adopted` | Filter by adoption status | `--adopted true` or `--adopted false` |
-| `--sort-by` | Sort by column | `--sort-by age` or `--sort-by weight_kg` |
-| `--desc` | Sort in descending order | `--desc` |
+| Option      | Description               | Example                                  |
+| ----------- | ------------------------- | ---------------------------------------- |
+| `--city`    | Filter by city name       | `--city 台北`                            |
+| `--min-age` | Minimum age (years)       | `--min-age 2`                            |
+| `--max-age` | Maximum age (years)       | `--max-age 5`                            |
+| `--adopted` | Filter by adoption status | `--adopted true` or `--adopted false`    |
+| `--sort-by` | Sort by column            | `--sort-by age` or `--sort-by weight_kg` |
+| `--desc`    | Sort in descending order  | `--desc`                                 |
 
 ---
 
@@ -96,6 +102,7 @@ python src/main.py --city 台中 --min-age 3 --sort-by weight_kg --desc
 ### Problem 1: `python` command not found
 
 **Solution**: Try using `python3` instead:
+
 ```bash
 python3 -m pip install -r requirements.txt
 python3 src/main.py
@@ -106,13 +113,17 @@ python3 src/main.py
 **Cause**: Dependencies not installed or installed in wrong environment.
 
 **Solution**:
+
 1. Check your Python version:
+
    ```bash
    python --version
    ```
+
    Should be Python 3.7 or higher.
 
 2. Install dependencies again:
+
    ```bash
    python -m pip install -r requirements.txt
    ```
@@ -127,6 +138,7 @@ python3 src/main.py
 **Cause**: Running the script from the wrong directory.
 
 **Solution**: Make sure you're in the project root directory:
+
 ```bash
 cd path/to/dog_analysis_project
 python src/main.py
@@ -135,6 +147,7 @@ python src/main.py
 ### Problem 4: Charts not displaying in Jupyter Notebook
 
 **Solution**: Add this at the top of your notebook:
+
 ```python
 %matplotlib inline
 ```
@@ -144,6 +157,7 @@ python src/main.py
 **Cause**: Path issue when running from different directories.
 
 **Solution**: Always run from project root:
+
 ```bash
 # From project root
 python src/dog.py    # Self-test mode
@@ -154,14 +168,17 @@ python src/dog.py    # Self-test mode
 ## 📓 Working with Jupyter Notebooks
 
 ### Step 1: Launch Jupyter
+
 ```bash
 jupyter notebook
 ```
 
 ### Step 2: Open Notebook
+
 Navigate to `notebooks/01_eda.ipynb` in the browser.
 
 ### Step 3: Run Cells
+
 Execute cells one by one to explore the data interactively.
 
 ---
@@ -185,9 +202,11 @@ By completing this project, you will learn:
 Complete the following tasks to practice your skills:
 
 ### Task 1: Basic (Data Exploration)
+
 **Goal**: Find all dogs in "高雄" (Kaohsiung).
 
 **Command**:
+
 ```bash
 python src/main.py --city 高雄
 ```
@@ -197,9 +216,11 @@ python src/main.py --city 高雄
 ---
 
 ### Task 2: Filtering (Age Range)
+
 **Goal**: Find puppies (1 year old or younger).
 
 **Command**:
+
 ```bash
 python src/main.py --max-age 1
 ```
@@ -209,9 +230,11 @@ python src/main.py --max-age 1
 ---
 
 ### Task 3: Sorting (Heaviest Dogs)
+
 **Goal**: Find the 5 heaviest dogs.
 
 **Command**:
+
 ```bash
 python src/main.py --sort-by weight_kg --desc
 ```
@@ -221,9 +244,11 @@ python src/main.py --sort-by weight_kg --desc
 ---
 
 ### Task 4: Complex Filter
+
 **Goal**: Find adopted dogs in "台北" that are between 2-4 years old.
 
 **Command**:
+
 ```bash
 python src/main.py --city 台北 --min-age 2 --max-age 4 --adopted true
 ```
@@ -233,9 +258,11 @@ python src/main.py --city 台北 --min-age 2 --max-age 4 --adopted true
 ---
 
 ### Task 5: Code Modification (Easy)
+
 **Goal**: Modify `src/dog.py` to add a new statistic.
 
 **Instructions**:
+
 1. Open `src/dog.py`
 2. Find the `stats_summary()` function
 3. Add a new statistic: `min_age` (minimum age)
@@ -243,6 +270,7 @@ python src/main.py --city 台北 --min-age 2 --max-age 4 --adopted true
 5. Run `python src/main.py` to see your changes
 
 **Expected Output**: The statistics summary should now include:
+
 ```
 Minimum Age: X years
 Maximum Age: Y years
@@ -251,9 +279,11 @@ Maximum Age: Y years
 ---
 
 ### Task 6: Code Modification (Medium)
+
 **Goal**: Add a new filter function to find unvaccinated dogs.
 
 **Instructions**:
+
 1. Open `src/dog.py`
 2. Add a new parameter to `filter_dogs()`: `vaccinated` (bool, optional)
 3. Implement the filter logic
@@ -264,15 +294,18 @@ Maximum Age: Y years
 ---
 
 ### Bonus Task 7: Visualization (Advanced)
+
 **Goal**: Create a new chart showing age distribution.
 
 **Instructions**:
+
 1. Open `notebooks/01_eda.ipynb`
 2. Create a new cell at the bottom
 3. Use `matplotlib` to create a histogram of dog ages
 4. Save the chart to `output/age_distribution.png`
 
 **Example Code**:
+
 ```python
 import matplotlib.pyplot as plt
 
@@ -290,24 +323,28 @@ plt.show()
 ## 🎓 Key Concepts Demonstrated
 
 ### 1. Module Design (`src/dog.py`)
+
 - Functions are organized by purpose
 - Each function has clear input/output
 - Error handling with try/except
 - Self-test with `if __name__ == "__main__"`
 
 ### 2. CLI Design (`src/main.py`)
+
 - Argument parsing with `argparse`
 - User-friendly error messages
 - Step-by-step execution with logging
 - Cross-platform path handling
 
 ### 3. Data Processing
+
 - Reading CSV with pandas
 - Data cleaning (type conversion, missing values)
 - Filtering and sorting
 - Statistical analysis
 
 ### 4. Project Organization
+
 - Separation of concerns (data / code / notebooks / output)
 - Reusable modules
 - Configuration management
@@ -335,11 +372,13 @@ When writing your own projects, check:
 After completing this project, you can:
 
 1. **Extend the Analysis**:
+
    - Add more data columns (e.g., color, size)
    - Implement data validation
    - Add unit tests
 
 2. **Learn More Modules**:
+
    - `datetime` for date analysis
    - `json` for configuration files
    - `requests` for API integration

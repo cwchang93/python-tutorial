@@ -23,11 +23,13 @@ The `.gitignore` file (if present) will exclude these files from version control
 To remove all generated files:
 
 **Windows**:
+
 ```cmd
 del /Q *
 ```
 
 **macOS/Linux**:
+
 ```bash
 rm -f *.png *.csv *.txt
 ```
