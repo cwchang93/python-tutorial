@@ -1,0 +1,15 @@
+
+1. 物件導向: 請寫 lesson09_oop/lesson09_oop_exercises_30.ipynb 6-10 題
+
+2. Git 
+本地端
+- 請重新開一個資料夾名為 20260124_Coding
+- 創建note.py 並在裡面新增 print('hello)
+- 透過git init 創建
+- 透過以下指令提交
+git add . 
+git commit -m "<提交的訊息>"
+
+遠端github 
+- 開啟新的repo
+- 把上面本地端的commit 推到遠端
