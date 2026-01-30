@@ -1,0 +1,62 @@
+order_id,order_date,customer_name,channel,product,category,qty,unit_price,order_amount,discount_code,region,member_level,payment_status,shipping_fee,notes
+B2001,2024-02-01,Alice,web,Wireless Mouse,electronics,2,650,1300,VIP50,North,gold,paid,80,
+B2002,2024/02/01,Bob,app,Coffee Maker,home,1,$3200,3200,SAVE10,South,silver,paid,80,first purchase
+B2003,2024-02-02,Carol,WEB,Yoga Mat,sports,1,890,"1,890",NEW100,East,bronze,paid,0,free shipping
+B2004,2024-02-02,David,mobile,T-Shirt,fashion,3,420,,SPRING20,West,gold,paid,80,missing order_amount
+B2005,2024-02-03,Emma,store,Protein Bar,food,10,35,350,,North,,paid,80,missing member_level
+B2006,2024/02/03,Frank,web,Desk Lamp,home,1,890,890,LIGHT10,South,silver,,80,missing payment_status
+B2007,2024-02-04,Grace,app,Running Shoes,sports,1,"2,450",2450,,East,gold,PAID,80,inconsistent case
+B2008,02-04-2024,Hannah,web,Handbag,fashion,1,1890,1890,STYLE15,West,bronze,paid,80,date format MM-DD-YYYY
+B2009,2024-02-05,Ivan,app,Bluetooth Speaker,electronics,2,,1780,TECH20,North,gold,paid,80,missing unit_price
+B2010,2024-02-05,Jenny,web,Vitamins,food,1,680,680,,South,silver,refunded,80,
+B2011,2024-02-06,Kevin,mobile,Monitor,electronics,1,9900,9900,SCREEN50,East,gold,paid,80,
+B2012,2024-02-06,Linda,app,Blender,home,1,2890,-2890,KITCHEN,West,silver,paid,80,negative amount but paid
+B2013,2024/02/07,Michael,web,Dumbbells,sports,2,990,1980,,North,gold,paid,0,
+B2014,2024-02-07,,app,Sunglasses,fashion,1,1250,1250,SUN20,South,,paid,80,missing customer_name
+B2015,2024-02-08,Nancy,web,USB Cable,electronics,5,99,495,CABLE10,East,bronze,paid,80,
+B2015,2024-02-08,Nancy,web,USB Cable,electronics,5,99,495,CABLE10,East,bronze,paid,80,duplicate order
+B2016,2024-02-08,Oliver,mobile,Water Bottle,sports,3,280,840,,West,silver,paid,80,
+B2017,2024-15-01,Paula,web,Keyboard,electronics,1,"1,590",1590,KB100,North,gold,paid,80,invalid month 15
+B2018,,Quinn,app,Backpack,fashion,1,1990,1990,BAG50,South,gold,paid,80,missing order_date
+B2019,2024-02-09,Rachel,web,Cookbook,food,2,350,700,,East,bronze,paid,80,
+B2020,2024-02-10,Steve,app,Headphones,electronics,1,"3,990",3990,AUDIO100,West,gold,paid,80,
+B2021,2024-02-10,Tina,web,Yoga Block,sports,4,190,760,,North,silver,paid,80,
+B2022,2024/02/11,Uma,mobile,Dress,fashion,1,$2890,2890,DRESS20,South,gold,paid,0,
+B2023,2024-02-11,Victor,app,Smart Watch,electronics,1,8900,8900,WATCH50,East,gold,paid,80,
+B2024,2024-02-12,Wendy,web,Air Fryer,home,1,"4,500",4500,,West,silver,paid,80,
+B2025,2024-02-12,Xavier,store,Protein Powder,food,1,1290,1290,PROTEIN,North,,paid,80,
+B2026,2024-02-13,Yara,web,Tennis Racket,sports,1,"2,990",2990,TENNIS50,South,bronze,paid,80,
+B2027,02-13-2024,Zack,app,Wallet,fashion,1,890,890,,East,silver,paid,80,date format issue
+B2028,2024-02-14,Anna,web,Tablet,electronics,1,12900,12900,TECH200,West,gold,paid,80,
+B2029,2024-02-14,Brian,mobile,Socks,fashion,5,120,600,,North,bronze,paid,0,
+B2030,2024/02/15,Clara,app,Rice Cooker,home,1,1890,1890,COOK20,South,silver,paid,80,
+B2031,2024-02-15,Derek,web,Jump Rope,sports,2,250,500,,East,bronze,paid,80,
+B2032,2024-02-16,Elsa,web,Scarf,fashion,1,450,450,WINTER10,West,,paid,80,missing member_level
+B2033,2024-02-16,Felix,app,Power Bank,electronics,1,"1,290",1290,,North,gold,paid,80,
+B2034,2024-02-17,Gina,mobile,Pillow,home,2,590,1180,SLEEP15,South,silver,paid,80,
+B2035,2024-02-17,Henry,web,Energy Bar,food,15,45,675,ENERGY,East,bronze,paid,80,
+B2036,2024/02/18,Iris,app,Basketball,sports,1,950,950,,West,silver,paid,80,
+B2037,2024-02-18,Jason,web,Jeans,fashion,1,"1,890",1890,DENIM20,North,gold,paid,80,
+B2038,2024-02-19,Kate,mobile,Webcam,electronics,1,2390,2390,CAM50,South,gold,paid,80,
+B2039,2024-02-19,Liam,app,Toaster,home,1,990,990,,East,silver,paid,0,
+B2040,2024-02-20,Mia,web,Fitness Tracker,sports,1,"1,990",1990,FITNESS,West,gold,paid,80,
+B2041,2024-02-20,Noah,web,Cap,fashion,2,350,700,,North,bronze,paid,80,
+B2042,2024/02/21,Olivia,app,External SSD,electronics,1,"3,900",3900,SSD100,South,gold,paid,80,
+B2043,2024-02-21,Paul,mobile,Vacuum,home,1,0,5900,CLEAN50,East,silver,paid,80,qty is 0
+B2044,2024-02-22,Quincy,web,Granola,food,3,180,540,,West,bronze,paid,80,
+B2045,2024-02-22,Ruby,app,Skateboard,sports,1,"2,500",2500,SKATE50,North,silver,paid,80,
+B2046,2024-02-23,Sam,web,Sweater,fashion,1,1290,1290,,South,gold,paid,80,
+B2047,2024-02-23,Tara,mobile,Smart Speaker,electronics,1,"2,890",2890,SMART50,East,gold,paid,80,
+B2048,2024/02/24,Uma,app,Microwave,home,1,3900,3900,,West,silver,paid,0,
+B2049,2024-02-24,Vince,web,Chocolate Bar,food,10,65,650,SWEET10,North,bronze,paid,80,
+B2050,2024-02-25,Wendy,app,Badminton Set,sports,-1,890,890,BADMINTON,South,silver,paid,80,negative qty
+B2051,2024-02-25,Xavier,web,Boots,fashion,1,"2,990",2990,,East,gold,paid,80,
+B2052,2024-02-26,Yolanda,mobile,Gaming Mouse,electronics,1,1590,1590,GAME50,West,gold,paid,80,
+B2053,2024/02/26,Zane,app,Bed Sheet,home,2,780,1560,,North,silver,paid,80,
+B2054,2024-02-27,Amy,web,Nuts Mix,food,1,290,290,HEALTHY,South,bronze,paid,80,
+B2055,2024-02-27,Ben,mobile,Football,sports,1,890,890,,East,silver,paid,80,
+B2056,2024-02-28,Cathy,app,Gloves,fashion,2,320,640,WARM10,West,bronze,paid,80,
+B2057,2024-02-28,Dan,web,Laptop Bag,electronics,1,"1,890",1890,,North,gold,paid,80,
+B2058,02-28-2024,Eve,mobile,Curtain,home,1,1290,1290,HOME20,South,silver,paid,80,date format MM-DD-YYYY
+B2059,2024/02/29,Fred,app,Protein Shake,food,2,350,700,,East,bronze,paid,80,leap year date
+B2060,2024-02-29,Gina,web,Hiking Shoes,sports,1,"3,490",3490,HIKE100,West,gold,paid,80,
