@@ -1,0 +1,8 @@
+ Git 
+本地端
+- 請重新開一個資料夾名為 20260131_Coding
+- 創建note.py 並在裡面新增 print('hello)
+- 透過git init 創建
+- 透過以下指令提交
+git add . 
+git commit -m "<提交的訊息>"
