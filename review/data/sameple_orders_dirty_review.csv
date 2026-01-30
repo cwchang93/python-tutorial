@@ -1,0 +1,64 @@
+order_id,order_date,customer_id,product,category,quantity,unit_price,payment_method,city
+ORD001,2024-01-15,C001,Wireless Mouse,electronics,2,450,credit_card,Taipei
+ORD002,2024-01-15,C002,Coffee Maker,home,1,$2800,line_pay,NewTaipei
+ORD003,2024-01-15,C003,Organic Apples,grocery,5,120,cash,Taichung
+ORD004,2024-01-16,C004,Running Shoes,sports,1,"1,950",apple_pay,Tainan
+ORD005,2024-01-16,,T-Shirt,fashion,3,380,credit_card,Kaohsiung
+ORD006,2024/01/16,C006,Bluetooth Speaker,electronics,1,890,line_pay,Taipei
+ORD007,2024-01-17,C007,Desk Lamp,home,2,650,bank_transfer,NewTaipei
+ORD008,2024-01-17,C008,Whole Milk,grocery,0,85,,Taichung
+ORD009,2024-01-17,C009,Yoga Mat,sports,1,$750,credit_card,Tainan
+ORD010,2024-01-18,C010,Jeans,fashion,2,"1,200",line_pay,Kaohsiung
+ORD011,01-18-2024,C011,USB Cable,electronics,5,150,apple_pay,Taipei
+ORD012,2024-01-18,C012,Blender,home,1,"3,500",cash,NewTaipei
+ORD013,2024-01-19,C013,Brown Rice,grocery,3,180,credit_card,Taichung
+ORD014,2024-01-19,,Basketball,sports,-1,950,line_pay,Tainan
+ORD015,2024/01/19,C015,Sweater,fashion,1,$890,bank_transfer,Kaohsiung
+ORD016,2024-01-20,C016,Laptop Stand,electronics,1,1250,credit_card,Taipei
+ORD017,2024-01-20,C017,Pillow,home,4,350,line_pay,NewTaipei
+ORD018,2024-01-20,C018,Green Tea,grocery,2,220,apple_pay,Taichung
+ORD019,2024-01-21,C019,Dumbbells,sports,2,"2,400",cash,Tainan
+ORD020,01-21-2024,C020,Sunglasses,fashion,1,$1200,credit_card,Kaohsiung
+ORD021,2024-01-21,C021,Keyboard,electronics,1,"2,800",line_pay,Taipei
+ORD022,2024-01-22,C022,Toaster,home,1,950,bank_transfer,NewTaipei
+ORD023,2024/01/22,C023,Olive Oil,grocery,1,$450,,Taichung
+ORD024,2024-01-22,C024,Tennis Racket,sports,1,"3,200",credit_card,Tainan
+ORD025,2024-01-23,,Dress,fashion,2,1450,line_pay,Kaohsiung
+ORD001,2024-01-23,C001,Wireless Mouse,electronics,2,450,apple_pay,Taipei
+ORD026,2024-01-23,C026,Monitor,electronics,1,"8,900",cash,NewTaipei
+ORD027,2024-01-24,C027,Bedsheet,home,3,580,credit_card,Taichung
+ORD028,2024-01-24,C028,Protein Bar,grocery,10,55,line_pay,Tainan
+ORD029,01-24-2024,C029,Bicycle,sports,1,"12,500",bank_transfer,Kaohsiung
+ORD030,2024-01-24,C030,Backpack,fashion,1,$1890,apple_pay,Taipei
+ORD031,2024/01/25,C031,Phone Case,electronics,3,280,credit_card,NewTaipei
+ORD032,2024-01-25,,Vacuum Cleaner,home,1,"4,800",line_pay,Taichung
+ORD033,2024-01-25,C033,Canned Tuna,grocery,6,95,cash,Tainan
+ORD034,2024-01-26,C034,Soccer Ball,sports,2,650,credit_card,Kaohsiung
+ORD005,2024-01-26,C004,T-Shirt,fashion,3,380,line_pay,Taipei
+ORD035,2024-01-26,C035,Webcam,electronics,1,"2,100",bank_transfer,NewTaipei
+ORD036,2024-01-27,C036,Cookware Set,home,1,"5,600",apple_pay,Taichung
+ORD037,01-27-2024,C037,Pasta,grocery,4,85,cash,Tainan
+ORD038,2024-01-27,C038,Gym Bag,sports,1,$780,credit_card,Kaohsiung
+ORD039,2024/01/27,C039,Scarf,fashion,2,420,line_pay,Taipei
+ORD040,2024-01-28,C040,Headphones,electronics,1,"1,750",bank_transfer,NewTaipei
+ORD041,2024-01-28,C041,Mirror,home,1,890,,Taichung
+ORD042,2024-01-28,,Fresh Juice,grocery,3,120,credit_card,Tainan
+ORD043,2024-01-28,C043,Fitness Tracker,sports,1,"2,900",line_pay,Kaohsiung
+ORD044,01-28-2024,C044,Wallet,fashion,1,$950,apple_pay,Taipei
+ORD045,2024-01-29,C045,Mouse Pad,electronics,4,180,cash,NewTaipei
+ORD046,2024-01-29,C046,Air Purifier,home,1,"6,800",credit_card,Taichung
+ORD047,2024/01/29,C047,Cereal,grocery,2,220,line_pay,Tainan
+ORD014,2024-01-29,C013,Basketball,sports,1,950,bank_transfer,Kaohsiung
+ORD048,2024-01-29,C048,Hoodie,fashion,1,"1,650",apple_pay,Taipei
+ORD049,2024-01-30,C049,External SSD,electronics,1,"3,900",cash,NewTaipei
+ORD050,2024-01-30,,Dining Table,home,1,"15,000",credit_card,Taichung
+ORD051,01-30-2024,C051,Honey,grocery,1,$350,line_pay,Tainan
+ORD052,2024-01-30,C052,Swimming Goggles,sports,2,450,bank_transfer,Kaohsiung
+ORD053,2024/01/30,C053,Belt,fashion,1,580,apple_pay,Taipei
+ORD054,2024-01-31,C054,Smart Watch,electronics,1,"8,500",cash,NewTaipei
+ORD055,2024-01-31,C055,Microwave,home,1,"3,200",credit_card,Taichung
+ORD056,2024-01-31,C056,Chocolate,grocery,5,95,,Tainan
+ORD057,2024-01-31,C057,Skateboard,sports,1,"2,800",line_pay,Kaohsiung
+ORD058,01-31-2024,C058,Gloves,fashion,2,320,bank_transfer,Taipei
+ORD059,2024-01-31,,Gaming Mouse,electronics,1,"2,450",apple_pay,NewTaipei
+ORD060,2024-01-31,C060,Table Lamp,home,2,720,cash,Taichung
