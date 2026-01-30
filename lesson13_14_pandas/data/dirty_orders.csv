@@ -1,0 +1,22 @@
+order_id,order_date,customer_name,channel,product,qty,unit_price,order_amount,coupon_code,city,is_member,payment_status,shipping_fee,notes
+A1001,2024-01-01,Amy,web,AirPods,1,5990,5990,,Taipei,TRUE,paid,60,
+A1002,2024/01/01,Ben,app,iPhone Case,2,390,780,NEW100,New Taipei,false,paid,60,first order
+A1003,2024-01-02,Chris,WEB,Keyboard,1,1290,1,290,,Taichung,yes,paid,60,order_amount has comma split
+A1004,2024-01-02,Debby,app,Mouse,1,890,,WELCOME,Kaohsiung,0,paid,60,missing order_amount
+A1005,2024-01-03,Evan,store,Cable,3,199,597,,Tainan,True,paid,60,
+A1006,2024-01-03,Fiona,web,Monitor,1,7990,7990,SAVE20,Hsinchu,False,paid,,missing shipping_fee
+A1007,2024-01-04,Gary,app,Laptop Stand,1,590,590,,Taipei,TRUE,PAID,60,payment_status inconsistent case
+A1008,2024-01-04,Henry,app,SSD,1,2490,2490,,Taipei,,paid,60,missing is_member
+A1009,2024-01-05,Ivy,web,USB Hub,1,,690,,New Taipei,true,paid,60,missing unit_price but has order_amount
+A1010,2024-01-05,Jack,web,Webcam,1,1590,1590,,New Taipei,true,refunded,60,
+A1011,2024-01-06,Ken,app,Desk Lamp,1,890,890,,Taipei,true,paid,60,
+A1012,2024-01-06,Lily,app,Chair,1,4990,-4990,,Taipei,true,paid,60,negative amount (returns?) but status paid
+A1013,2024-01-07,Mike,web,Notebook,2,120,240,,Taoyuan,true,paid,0,shipping_fee 0 ok
+A1014,2024-01-07,Nina,web,Pen,10,15,150,,Taipei,true,,60,missing payment_status
+A1015,2024-01-08,Oscar,app,Monitor,1,7990,7990,,Taipei,true,paid,60,duplicate id next row
+A1015,2024-01-08,Oscar,app,Monitor,1,7990,7990,,Taipei,true,paid,60,duplicate row
+A1016,2024-01-08,Pat,app,Gift Card,1,1000,1000,,Taipei,true,paid,60,
+A1017,2024-13-01,Queen,web,Keyboard,1,1290,1290,,Taipei,true,paid,60,invalid month in date
+A1018,,Ray,app,Mouse,1,890,890,,Taipei,true,paid,60,missing order_date
+A1019,2024-01-09,Sam,web,Keyboard,1,1290,1290,,Taipei,true,paid,60,date outside expected range
+A1020,2024-01-04,Tina,app,Mouse,1,890,890,,Taipei,true,paid,60,late record inserted (out-of-order)
