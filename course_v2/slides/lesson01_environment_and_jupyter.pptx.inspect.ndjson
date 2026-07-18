@@ -1,0 +1,232 @@
+{"kind":"deck","id":"pr/m8q2wm","name":"Deck"}
+{"kind":"layout","layoutId":"5c240c42-73e6-4a74-a825-01c2a365c506","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"98e9535b-4167-4822-bec6-e39fb2249c61","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/5bcmwu","slide":1,"title":"PYTHON 資料分析實戰","textShapes":7}
+{"kind":"shape","id":"sh/jmhsv694","slide":1,"bbox":[70,92,10,490]}
+{"kind":"textbox","id":"sh/knq94bqp","slide":1,"text":"PYTHON 資料分析實戰","textPreview":"PYTHON 資料分析實戰","textChars":13,"textLines":1,"bbox":[112,100,540,40]}
+{"kind":"textbox","id":"sh/lojaxgra","slide":1,"text":"Lesson 01","textPreview":"Lesson 01","textChars":9,"textLines":1,"bbox":[112,190,800,70]}
+{"kind":"textbox","id":"sh/ah8ry18n","slide":1,"text":"環境建置與第一個 Python 程式","textPreview":"環境建置與第一個 Python 程式","textChars":18,"textLines":1,"bbox":[112,278,900,110]}
+{"kind":"textbox","id":"sh/bih8rm98","slide":1,"text":"Anaconda · JupyterLab · Notebook","textPreview":"Anaconda · JupyterLab · Notebook","textChars":32,"textLines":1,"bbox":[112,430,720,42]}
+{"kind":"textbox","id":"sh/wjq90rqt","slide":1,"text":"JW｜課程講師","textPreview":"JW｜課程講師","textChars":7,"textLines":1,"bbox":[112,548,500,34]}
+{"kind":"shape","id":"sh/xkzatwre","slide":1,"bbox":[940,140,220,220]}
+{"kind":"textbox","id":"sh/udsral8r","slide":1,"text":">_","textPreview":">_","textChars":2,"textLines":1,"bbox":[978,190,150,90]}
+{"kind":"textbox","id":"sh/ve1s3qpc","slide":1,"text":"START","textPreview":"START","textChars":5,"textLines":1,"bbox":[978,294,150,32]}
+{"kind":"notes","id":"nt/5bcmwu","slide":1,"text":""}
+{"kind":"slide","id":"sl/dgck43","slide":2,"title":"開課說明","textShapes":11}
+{"kind":"shape","id":"sh/4nut0vet","slide":2,"bbox":[0,0,18,720]}
+{"kind":"textbox","id":"sh/3mlcrqd8","slide":2,"text":"開課說明","textPreview":"開課說明","textChars":4,"textLines":1,"bbox":[58,34,200,28]}
+{"kind":"textbox","id":"sh/2lcbylwn","slide":2,"text":"今天先把上課方式與工具準備好","textPreview":"今天先把上課方式與工具準備好","textChars":14,"textLines":1,"bbox":[58,70,1160,72]}
+{"kind":"textbox","id":"sh/dsnux0va","slide":2,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[1170,670,50,24]}
+{"kind":"textbox","id":"sh/cred4vu5","slide":2,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[78,185,28,40]}
+{"kind":"textbox","id":"sh/rqlcvqdk","slide":2,"text":"確認教材取得方式、出席與作業規則","textPreview":"確認教材取得方式、出席與作業規則","textChars":16,"textLines":1,"bbox":[118,185,1080,58]}
+{"kind":"textbox","id":"sh/qpcb2lwz","slide":2,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[78,273,28,40]}
+{"kind":"textbox","id":"sh/twjulwv6","slide":2,"text":"認識講師、同學與這門課的學習目標","textPreview":"認識講師、同學與這門課的學習目標","textChars":16,"textLines":1,"bbox":[118,273,1080,58]}
+{"kind":"textbox","id":"sh/svatsbel","slide":2,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[78,361,28,40]}
+{"kind":"textbox","id":"sh/m14je5oz","slide":2,"text":"完成 Anaconda 與 JupyterLab 安裝","textPreview":"完成 Anaconda 與 JupyterLab 安裝","textChars":27,"textLines":1,"bbox":[118,361,1080,58]}
+{"kind":"textbox","id":"sh/72xk7a5k","slide":2,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[78,449,28,40]}
+{"kind":"textbox","id":"sh/8361gf65","slide":2,"text":"成功執行第一行 Python 程式","textPreview":"成功執行第一行 Python 程式","textChars":17,"textLines":1,"bbox":[118,449,1080,58]}
+{"kind":"notes","id":"nt/dgck43","slide":2,"text":""}
+{"kind":"slide","id":"sl/s1js6g","slide":3,"title":"認識彼此","textShapes":9}
+{"kind":"shape","id":"sh/epo72h4v","slide":3,"bbox":[0,0,18,720]}
+{"kind":"textbox","id":"sh/1sf6xcnm","slide":3,"text":"認識彼此","textPreview":"認識彼此","textChars":4,"textLines":1,"bbox":[58,34,200,28]}
+{"kind":"textbox","id":"sh/gr6p4rm1","slide":3,"text":"講師介紹","textPreview":"講師介紹","textChars":4,"textLines":1,"bbox":[58,70,1160,72]}
+{"kind":"textbox","id":"sh/r2xor25k","slide":3,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[1170,670,50,24]}
+{"kind":"shape","id":"sh/61onyx4z","slide":3,"bbox":[80,190,270,330]}
+{"kind":"textbox","id":"sh/t4f6tcna","slide":3,"text":"JW","textPreview":"JW","textChars":2,"textLines":1,"bbox":[80,260,270,100]}
+{"kind":"textbox","id":"sh/s36507m5","slide":3,"text":"課程講師","textPreview":"課程講師","textChars":4,"textLines":1,"bbox":[80,382,270,42]}
+{"kind":"textbox","id":"sh/byho365o","slide":3,"text":"Python 教學","textPreview":"Python 教學","textChars":9,"textLines":1,"bbox":[430,210,520,42]}
+{"kind":"textbox","id":"sh/ax87a143","slide":3,"text":"資料分析與實務應用","textPreview":"資料分析與實務應用","textChars":9,"textLines":1,"bbox":[430,295,620,42]}
+{"kind":"textbox","id":"sh/872ponel","slide":3,"text":"專案導向學習","textPreview":"專案導向學習","textChars":6,"textLines":1,"bbox":[430,380,520,42]}
+{"kind":"textbox","id":"sh/t8bqhsv6","slide":3,"text":"課堂重點：先理解、再動手、最後做出作品","textPreview":"課堂重點：先理解、再動手、最後做出作品","textChars":19,"textLines":1,"bbox":[430,485,700,44]}
+{"kind":"notes","id":"nt/s1js6g","slide":3,"text":""}
+{"kind":"slide","id":"sl/s6khfk","slide":4,"title":"課程地圖","textShapes":16}
+{"kind":"shape","id":"sh/hgzydkf2","slide":4,"bbox":[0,0,18,720]}
+{"kind":"textbox","id":"sh/ud8fi5gb","slide":4,"text":"課程地圖","textPreview":"課程地圖","textChars":4,"textLines":1,"bbox":[58,34,200,28]}
+{"kind":"textbox","id":"sh/vehgbahw","slide":4,"text":"21 堂課，最後完成一份可展示的分析作品","textPreview":"21 堂課，最後完成一份可展示的分析作品","textChars":20,"textLines":1,"bbox":[58,70,1160,72]}
+{"kind":"textbox","id":"sh/8b6xgfy5","slide":4,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[1170,670,50,24]}
+{"kind":"shape","id":"sh/tcfy9kzq","slide":4,"bbox":[90,235,220,220]}
+{"kind":"textbox","id":"sh/69ofe5gf","slide":4,"text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[160,265,80,60]}
+{"kind":"textbox","id":"sh/7axg7ah0","slide":4,"text":"Python 基礎","textPreview":"Python 基礎","textChars":9,"textLines":1,"bbox":[110,350,180,38]}
+{"kind":"textbox","id":"sh/k76xcvy9","slide":4,"text":"L01–L07","textPreview":"L01–L07","textChars":7,"textLines":1,"bbox":[110,402,180,30]}
+{"kind":"shape","id":"sh/l8fe50zu","slide":4,"bbox":[390,235,220,220]}
+{"kind":"textbox","id":"sh/lkjq9ov6","slide":4,"text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[460,265,80,60]}
+{"kind":"textbox","id":"sh/kjap0jel","slide":4,"text":"資料處理","textPreview":"資料處理","textChars":4,"textLines":1,"bbox":[410,350,180,38]}
+{"kind":"textbox","id":"sh/zi187edg","slide":4,"text":"L08–L11","textPreview":"L08–L11","textChars":7,"textLines":1,"bbox":[410,402,180,30]}
+{"kind":"shape","id":"sh/yh87ytwv","slide":4,"bbox":[690,235,220,220]}
+{"kind":"textbox","id":"sh/xgzq5ova","slide":4,"text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[760,265,80,60]}
+{"kind":"textbox","id":"sh/cfqpwjep","slide":4,"text":"分析與圖表","textPreview":"分析與圖表","textChars":5,"textLines":1,"bbox":[710,350,180,38]}
+{"kind":"textbox","id":"sh/beh83ed4","slide":4,"text":"L12–L16","textPreview":"L12–L16","textChars":7,"textLines":1,"bbox":[710,402,180,30]}
+{"kind":"shape","id":"sh/at87u9wj","slide":4,"bbox":[990,235,220,220]}
+{"kind":"textbox","id":"sh/pszq14vy","slide":4,"text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[1060,265,80,60]}
+{"kind":"textbox","id":"sh/orqpszet","slide":4,"text":"專題發表","textPreview":"專題發表","textChars":4,"textLines":1,"bbox":[1010,350,180,38]}
+{"kind":"textbox","id":"sh/gvup8jm9","slide":4,"text":"L17–L21","textPreview":"L17–L21","textChars":7,"textLines":1,"bbox":[1010,402,180,30]}
+{"kind":"textbox","id":"sh/1w3qh43u","slide":4,"text":"今天的任務：把第一階段的工具準備完成","textPreview":"今天的任務：把第一階段的工具準備完成","textChars":18,"textLines":1,"bbox":[320,545,640,42]}
+{"kind":"notes","id":"nt/s6khfk","slide":4,"text":""}
+{"kind":"slide","id":"sl/kpxx0s","slide":5,"title":"學習方式","textShapes":11}
+{"kind":"shape","id":"sh/ob6xwryd","slide":5,"bbox":[0,0,18,720]}
+{"kind":"textbox","id":"sh/naxgnmhs","slide":5,"text":"學習方式","textPreview":"學習方式","textChars":4,"textLines":1,"bbox":[58,34,200,28]}
+{"kind":"textbox","id":"sh/m9ofuhg7","slide":5,"text":"學會程式的關鍵：每次都親手執行與修改","textPreview":"學會程式的關鍵：每次都親手執行與修改","textChars":18,"textLines":1,"bbox":[58,70,1160,72]}
+{"kind":"textbox","id":"sh/xgzytgzu","slide":5,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[1170,670,50,24]}
+{"kind":"textbox","id":"sh/wfqh0byp","slide":5,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[78,185,28,40]}
+{"kind":"textbox","id":"sh/behgr6h4","slide":5,"text":"看懂範例後，自己重新執行一次","textPreview":"看懂範例後，自己重新執行一次","textChars":14,"textLines":1,"bbox":[118,185,1080,58]}
+{"kind":"textbox","id":"sh/ad8zy1gj","slide":5,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[78,273,28,40]}
+{"kind":"textbox","id":"sh/dkfyhczq","slide":5,"text":"修改文字或數字，觀察輸出有什麼變化","textPreview":"修改文字或數字，觀察輸出有什麼變化","textChars":17,"textLines":1,"bbox":[118,273,1080,58]}
+{"kind":"textbox","id":"sh/cjmxo7y5","slide":5,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[78,361,28,40]}
+{"kind":"textbox","id":"sh/alsnqtoj","slide":5,"text":"遇到錯誤先讀最後一行，再向老師求助","textPreview":"遇到錯誤先讀最後一行，再向老師求助","textChars":17,"textLines":1,"bbox":[118,361,1080,58]}
+{"kind":"textbox","id":"sh/vm14jyp4","slide":5,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[78,449,28,40]}
+{"kind":"textbox","id":"sh/wna5s36p","slide":5,"text":"不必死背語法，但要能說明程式在做什麼","textPreview":"不必死背語法，但要能說明程式在做什麼","textChars":18,"textLines":1,"bbox":[118,449,1080,58]}
+{"kind":"notes","id":"nt/kpxx0s","slide":5,"text":""}
+{"kind":"slide","id":"sl/9tv5r3","slide":6,"title":"為什麼是 Python","textShapes":10}
+{"kind":"shape","id":"sh/zeh83ad8","slide":6,"bbox":[0,0,18,720]}
+{"kind":"textbox","id":"sh/0fapcfut","slide":6,"text":"為什麼是 Python","textPreview":"為什麼是 Python","textChars":11,"textLines":1,"bbox":[58,34,200,28]}
+{"kind":"textbox","id":"sh/lgjq50ve","slide":6,"text":"Python 讓重複工作可以被保存、修改與重跑","textPreview":"Python 讓重複工作可以被保存、修改與重跑","textChars":23,"textLines":1,"bbox":[58,70,1160,72]}
+{"kind":"textbox","id":"sh/q9876lcr","slide":6,"text":"06","textPreview":"06","textChars":2,"textLines":1,"bbox":[1170,670,50,24]}
+{"kind":"textbox","id":"sh/bah8zqdc","slide":6,"text":"資料整理","textPreview":"資料整理","textChars":4,"textLines":1,"bbox":[110,225,260,48]}
+{"kind":"textbox","id":"sh/cbqp8vuh","slide":6,"text":"分析報表","textPreview":"分析報表","textChars":4,"textLines":1,"bbox":[510,225,260,48]}
+{"kind":"textbox","id":"sh/dczq10v2","slide":6,"text":"工作自動化","textPreview":"工作自動化","textChars":5,"textLines":1,"bbox":[910,225,260,48]}
+{"kind":"shape","id":"sh/2lo72lcf","slide":6,"bbox":[190,320,100,100]}
+{"kind":"shape","id":"sh/3mx8vqd0","slide":6,"bbox":[590,320,100,100]}
+{"kind":"shape","id":"sh/bahw3mh0","slide":6,"bbox":[990,320,100,100]}
+{"kind":"textbox","id":"sh/a98vah0f","slide":6,"text":"整理","textPreview":"整理","textChars":2,"textLines":1,"bbox":[190,348,100,36]}
+{"kind":"textbox","id":"sh/xcje5wzq","slide":6,"text":"計算","textPreview":"計算","textChars":2,"textLines":1,"bbox":[590,348,100,36]}
+{"kind":"textbox","id":"sh/wbadcri5","slide":6,"text":"重跑","textPreview":"重跑","textChars":2,"textLines":1,"bbox":[990,348,100,36]}
+{"kind":"textbox","id":"sh/je1w7mhw","slide":6,"text":"先不用學所有應用；今天只需要把工具發動起來。","textPreview":"先不用學所有應用；今天只需要把工具發動起來。","textChars":22,"textLines":1,"bbox":[250,515,780,48]}
+{"kind":"notes","id":"nt/9tv5r3","slide":6,"text":""}
+{"kind":"slide","id":"sl/ppvorc","slide":7,"title":"工具關係","textShapes":11}
+{"kind":"shape","id":"sh/qhsrep07","slide":7,"bbox":[0,0,18,720]}
+{"kind":"textbox","id":"sh/dkjqpkjy","slide":7,"text":"工具關係","textPreview":"工具關係","textChars":4,"textLines":1,"bbox":[58,34,200,28]}
+{"kind":"textbox","id":"sh/cja9gfid","slide":7,"text":"Anaconda 準備環境，JupyterLab 是我們的工作桌","textPreview":"Anaconda 準備環境，JupyterLab 是我們的工作桌","textChars":32,"textLines":1,"bbox":[58,70,1160,72]}
+{"kind":"textbox","id":"sh/3eh8ja1w","slide":7,"text":"07","textPreview":"07","textChars":2,"textLines":1,"bbox":[1170,670,50,24]}
+{"kind":"shape","id":"sh/2d8ra50b","slide":7,"bbox":[100,225,280,210]}
+{"kind":"textbox","id":"sh/pgjqlkjm","slide":7,"text":"Python","textPreview":"Python","textChars":6,"textLines":1,"bbox":[130,265,220,50]}
+{"kind":"textbox","id":"sh/ofq9cfih","slide":7,"text":"執行程式的核心","textPreview":"執行程式的核心","textChars":7,"textLines":1,"bbox":[130,345,220,32]}
+{"kind":"textbox","id":"sh/nalsveh0","slide":7,"text":"+","textPreview":"+","textChars":1,"textLines":1,"bbox":[405,295,70,60]}
+{"kind":"shape","id":"sh/m9crm90f","slide":7,"bbox":[500,225,280,210]}
+{"kind":"textbox","id":"sh/8vu1cbux","slide":7,"text":"Anaconda","textPreview":"Anaconda","textChars":8,"textLines":1,"bbox":[530,265,220,50]}
+{"kind":"textbox","id":"sh/tw3ilgvi","slide":7,"text":"安裝與管理工具","textPreview":"安裝與管理工具","textChars":7,"textLines":1,"bbox":[530,345,220,32]}
+{"kind":"textbox","id":"sh/6tsja1c7","slide":7,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[805,295,70,60]}
+{"kind":"shape","id":"sh/7ul0j6ds","slide":7,"bbox":[900,225,280,210]}
+{"kind":"textbox","id":"sh/kra18bu1","slide":7,"text":"JupyterLab","textPreview":"JupyterLab","textChars":10,"textLines":1,"bbox":[930,265,220,50]}
+{"kind":"textbox","id":"sh/lsjihwvm","slide":7,"text":"寫程式與做筆記","textPreview":"寫程式與做筆記","textChars":7,"textLines":1,"bbox":[930,345,220,32]}
+{"kind":"notes","id":"nt/ppvorc","slide":7,"text":""}
+{"kind":"slide","id":"sl/vttvkf","slide":8,"title":"環境建置","textShapes":10}
+{"kind":"shape","id":"sh/hg769s3i","slide":8,"bbox":[0,0,18,720]}
+{"kind":"textbox","id":"sh/udgnyd47","slide":8,"text":"環境建置","textPreview":"環境建置","textChars":4,"textLines":1,"bbox":[58,34,200,28]}
+{"kind":"textbox","id":"sh/vepo7ils","slide":8,"text":"安裝前先確認三件事","textPreview":"安裝前先確認三件事","textChars":9,"textLines":1,"bbox":[58,70,1160,72]}
+{"kind":"textbox","id":"sh/8be5w3m1","slide":8,"text":"08","textPreview":"08","textChars":2,"textLines":1,"bbox":[1170,670,50,24]}
+{"kind":"textbox","id":"sh/9c76583m","slide":8,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[110,220,28,40]}
+{"kind":"textbox","id":"sh/m9wnud4v","slide":8,"text":"筆電接上電源，並保持網路連線","textPreview":"筆電接上電源，並保持網路連線","textChars":14,"textLines":1,"bbox":[150,220,1000,58]}
+{"kind":"textbox","id":"sh/7a543ilg","slide":8,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[110,325,28,40]}
+{"kind":"textbox","id":"sh/s7i587m5","slide":8,"text":"使用自己可管理的電腦帳號","textPreview":"使用自己可管理的電腦帳號","textChars":12,"textLines":1,"bbox":[150,325,1000,58]}
+{"kind":"textbox","id":"sh/d8r6hc3q","slide":8,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[110,430,28,40]}
+{"kind":"textbox","id":"sh/p8jq14zy","slide":8,"text":"磁碟保留足夠空間，安裝過程不要關機","textPreview":"磁碟保留足夠空間，安裝過程不要關機","textChars":17,"textLines":1,"bbox":[150,430,1000,58]}
+{"kind":"shape","id":"sh/47qp8zyt","slide":8,"bbox":[100,548,1080,58]}
+{"kind":"textbox","id":"sh/36h8zuh8","slide":8,"text":"遇到不同畫面先停下來，請老師協助，不要連續按下一步。","textPreview":"遇到不同畫面先停下來，請老師協助，不要連續按下一步。","textChars":26,"textLines":1,"bbox":[125,561,1030,34]}
+{"kind":"notes","id":"nt/vttvkf","slide":8,"text":""}
+{"kind":"slide","id":"sl/iod6xj","slide":9,"title":"安裝步驟 1","textShapes":7}
+{"kind":"shape","id":"sh/ex0zy5k3","slide":9,"bbox":[0,0,18,720]}
+{"kind":"textbox","id":"sh/1kritkje","slide":9,"text":"安裝步驟 1","textPreview":"安裝步驟 1","textChars":6,"textLines":1,"bbox":[58,34,200,28]}
+{"kind":"textbox","id":"sh/0jih0f2t","slide":9,"text":"只從 Anaconda 官方網站下載安裝程式","textPreview":"只從 Anaconda 官方網站下載安裝程式","textChars":22,"textLines":1,"bbox":[58,70,1160,72]}
+{"kind":"textbox","id":"sh/rup0nqlc","slide":9,"text":"09","textPreview":"09","textChars":2,"textLines":1,"bbox":[1170,670,50,24]}
+{"kind":"textbox","id":"sh/qtgzulkr","slide":9,"text":"anaconda.com/download","textPreview":"anaconda.com/download","textChars":21,"textLines":1,"bbox":[140,225,1000,82]}
+{"kind":"shape","id":"sh/dwrip03i","slide":9,"bbox":[190,350,900,125]}
+{"kind":"textbox","id":"sh/cvihwv2x","slide":9,"text":"選擇自己的作業系統與晶片版本","textPreview":"選擇自己的作業系統與晶片版本","textChars":14,"textLines":1,"bbox":[220,378,840,40]}
+{"kind":"textbox","id":"sh/3qp0jqlg","slide":9,"text":"Windows 64-bit ／ macOS Apple Silicon 或 Intel","textPreview":"Windows 64-bit ／ macOS Apple Silicon 或 Intel","textChars":44,"textLines":1,"bbox":[220,430,840,32]}
+{"kind":"textbox","id":"sh/2pgzqlkv","slide":9,"text":"不要從不明下載站取得安裝檔","textPreview":"不要從不明下載站取得安裝檔","textChars":13,"textLines":1,"bbox":[260,535,760,38]}
+{"kind":"notes","id":"nt/iod6xj","slide":9,"text":""}
+{"kind":"slide","id":"sl/4hdq7n","slide":10,"title":"安裝步驟 2","textShapes":7}
+{"kind":"shape","id":"sh/kbu5gzi1","slide":10,"bbox":[0,0,18,720]}
+{"kind":"textbox","id":"sh/jal47u1g","slide":10,"text":"安裝步驟 2","textPreview":"安裝步驟 2","textChars":6,"textLines":1,"bbox":[58,34,200,28]}
+{"kind":"textbox","id":"sh/i9cnep0b","slide":10,"text":"安裝選項以穩定、容易移除為原則","textPreview":"安裝選項以穩定、容易移除為原則","textChars":15,"textLines":1,"bbox":[58,70,1160,72]}
+{"kind":"textbox","id":"sh/tgn6d4zy","slide":10,"text":"10","textPreview":"10","textChars":2,"textLines":1,"bbox":[1170,670,50,24]}
+{"kind":"shape","id":"sh/sfe5kzid","slide":10,"bbox":[80,195,535,330]}
+{"kind":"textbox","id":"sh/7e5obuhs","slide":10,"text":"Windows","textPreview":"Windows","textChars":7,"textLines":1,"bbox":[110,225,475,46]}
+{"kind":"textbox","id":"sh/6dcnip07","slide":10,"text":"✓ 選擇 Just Me\n✓ 使用預設安裝位置\n✓ 不加入 PATH\n✓ 不使用系統管理員安裝","textPreview":"✓ 選擇 Just Me | ✓ 使用預設安裝位置 | ✓ 不加入 PATH | ✓ 不使用系統管理員安裝","textChars":47,"textLines":4,"bbox":[110,300,455,190]}
+{"kind":"shape","id":"sh/hkn6hozu","slide":10,"bbox":[665,195,535,330]}
+{"kind":"textbox","id":"sh/gje5oji9","slide":10,"text":"macOS","textPreview":"macOS","textChars":5,"textLines":1,"bbox":[695,225,475,46]}
+{"kind":"textbox","id":"sh/2hwbal0f","slide":10,"text":"✓ 選擇正確晶片版本\n✓ 依安裝精靈完成設定\n✓ 若系統要求，輸入電腦密碼\n✓ 安裝後開啟 Navigator","textPreview":"✓ 選擇正確晶片版本 | ✓ 依安裝精靈完成設定 | ✓ 若系統要求，輸入電腦密碼 | ✓ 安裝後開啟 Navigator","textChars":55,"textLines":4,"bbox":[695,300,455,190]}
+{"kind":"notes","id":"nt/4hdq7n","slide":10,"text":""}
+{"kind":"slide","id":"sl/jboru8","slide":11,"title":"安裝步驟 3","textShapes":5}
+{"kind":"shape","id":"sh/ulgj2l03","slide":11,"bbox":[0,0,18,720]}
+{"kind":"textbox","id":"sh/ho72xgju","slide":11,"text":"安裝步驟 3","textPreview":"安裝步驟 3","textChars":6,"textLines":1,"bbox":[58,34,200,28]}
+{"kind":"textbox","id":"sh/wny14bi9","slide":11,"text":"安裝完成後，從 Navigator 啟動 JupyterLab","textPreview":"安裝完成後，從 Navigator 啟動 JupyterLab","textChars":31,"textLines":1,"bbox":[58,70,1160,72]}
+{"kind":"textbox","id":"sh/7i50r61s","slide":11,"text":"11","textPreview":"11","textChars":2,"textLines":1,"bbox":[1170,670,50,24]}
+{"kind":"shape","id":"sh/9knitgji","slide":11,"bbox":[900,230,270,230]}
+{"kind":"textbox","id":"sh/8je10bid","slide":11,"text":"找到\nJupyterLab","textPreview":"找到 | JupyterLab","textChars":13,"textLines":2,"bbox":[930,270,210,82]}
+{"kind":"textbox","id":"sh/re9k3a1w","slide":11,"text":"按下 Launch","textPreview":"按下 Launch","textChars":9,"textLines":1,"bbox":[930,380,210,42]}
+{"kind":"image","id":"im/fi98ja50","slide":11,"name":"","alt":"Anaconda Navigator home screen","bbox":[90,175,760,420]}
+{"kind":"notes","id":"nt/jboru8","slide":11,"text":""}
+{"kind":"slide","id":"sl/2vrwu7","slide":12,"title":"啟動提醒","textShapes":5}
+{"kind":"shape","id":"sh/v2587ilk","slide":12,"bbox":[0,0,18,720]}
+{"kind":"textbox","id":"sh/g3e90n25","slide":12,"text":"啟動提醒","textPreview":"啟動提醒","textChars":4,"textLines":1,"bbox":[58,34,200,28]}
+{"kind":"textbox","id":"sh/h4nq9s3q","slide":12,"text":"第一次啟動需要一點時間，先不要重複點擊","textPreview":"第一次啟動需要一點時間，先不要重複點擊","textChars":19,"textLines":1,"bbox":[58,70,1160,72]}
+{"kind":"textbox","id":"sh/i5wr2xkb","slide":12,"text":"12","textPreview":"12","textChars":2,"textLines":1,"bbox":[1170,670,50,24]}
+{"kind":"shape","id":"sh/36p8bilw","slide":12,"bbox":[180,220,920,245]}
+{"kind":"textbox","id":"sh/47y94n2h","slide":12,"text":"Launch → 等待 → 瀏覽器開啟","textPreview":"Launch → 等待 → 瀏覽器開啟","textChars":19,"textLines":1,"bbox":[230,285,820,62]}
+{"kind":"textbox","id":"sh/5s7qds32","slide":12,"text":"若超過數分鐘仍沒有畫面，再請老師檢查。","textPreview":"若超過數分鐘仍沒有畫面，再請老師檢查。","textChars":19,"textLines":1,"bbox":[230,375,820,36]}
+{"kind":"notes","id":"nt/2vrwu7","slide":12,"text":""}
+{"kind":"slide","id":"sl/8fkbgz","slide":13,"title":"認識介面","textShapes":6}
+{"kind":"shape","id":"sh/c3idknqd","slide":13,"bbox":[0,0,18,720]}
+{"kind":"textbox","id":"sh/b2pwbips","slide":13,"text":"認識介面","textPreview":"認識介面","textChars":4,"textLines":1,"bbox":[58,34,200,28]}
+{"kind":"textbox","id":"sh/q1gvid87","slide":13,"text":"JupyterLab 左邊找檔案，中間寫程式","textPreview":"JupyterLab 左邊找檔案，中間寫程式","textChars":22,"textLines":1,"bbox":[58,70,1160,72]}
+{"kind":"textbox","id":"sh/p07u987m","slide":13,"text":"13","textPreview":"13","textChars":2,"textLines":1,"bbox":[1170,670,50,24]}
+{"kind":"textbox","id":"sh/3ypc7ypg","slide":13,"text":"檔案瀏覽區","textPreview":"檔案瀏覽區","textChars":5,"textLines":1,"bbox":[85,620,260,30]}
+{"kind":"textbox","id":"sh/2xgvet8v","slide":13,"text":"Notebook 工作區","textPreview":"Notebook 工作區","textChars":12,"textLines":1,"bbox":[465,620,500,30]}
+{"kind":"textbox","id":"sh/1w7u587q","slide":13,"text":"選單與工具列","textPreview":"選單與工具列","textChars":6,"textLines":1,"bbox":[980,620,220,30]}
+{"kind":"image","id":"im/pgj2h0ri","slide":13,"name":"","alt":"JupyterLab default interface","bbox":[65,165,1150,450]}
+{"kind":"notes","id":"nt/8fkbgz","slide":13,"text":""}
+{"kind":"slide","id":"sl/daa77p","slide":14,"title":"Notebook 基礎","textShapes":8}
+{"kind":"shape","id":"sh/u5ori18f","slide":14,"bbox":[0,0,18,720]}
+{"kind":"textbox","id":"sh/h8fatw76","slide":14,"text":"Notebook 基礎","textPreview":"Notebook 基礎","textChars":11,"textLines":1,"bbox":[58,34,200,28]}
+{"kind":"textbox","id":"sh/g769kbql","slide":14,"text":"Notebook 把說明、程式與結果放在同一份檔案","textPreview":"Notebook 把說明、程式與結果放在同一份檔案","textChars":25,"textLines":1,"bbox":[58,70,1160,72]}
+{"kind":"textbox","id":"sh/3uhsv6pw","slide":14,"text":"14","textPreview":"14","textChars":2,"textLines":1,"bbox":[1170,670,50,24]}
+{"kind":"shape","id":"sh/2t8rm18r","slide":14,"bbox":[100,210,500,290]}
+{"kind":"textbox","id":"sh/pwzaxg72","slide":14,"text":"Code Cell","textPreview":"Code Cell","textChars":9,"textLines":1,"bbox":[140,250,420,48]}
+{"kind":"textbox","id":"sh/4vq9obqh","slide":14,"text":"寫 Python 程式\n執行後顯示結果","textPreview":"寫 Python 程式 | 執行後顯示結果","textChars":19,"textLines":2,"bbox":[140,330,420,92]}
+{"kind":"shape","id":"sh/jydsjmps","slide":14,"bbox":[680,210,500,290]}
+{"kind":"textbox","id":"sh/yx4rah87","slide":14,"text":"Markdown Cell","textPreview":"Markdown Cell","textChars":13,"textLines":1,"bbox":[720,250,420,48]}
+{"kind":"textbox","id":"sh/8fud8vax","slide":14,"text":"寫標題與筆記\n不會當作程式執行","textPreview":"寫標題與筆記 | 不會當作程式執行","textChars":15,"textLines":2,"bbox":[720,330,420,92]}
+{"kind":"textbox","id":"sh/9g3eh0bi","slide":14,"text":"副檔名：.ipynb","textPreview":"副檔名：.ipynb","textChars":10,"textLines":1,"bbox":[460,555,360,38]}
+{"kind":"notes","id":"nt/daa77p","slide":14,"text":""}
+{"kind":"slide","id":"sl/x7ofxh","slide":15,"title":"第一個快捷鍵","textShapes":7}
+{"kind":"shape","id":"sh/25cn6xcz","slide":15,"bbox":[0,0,18,720]}
+{"kind":"textbox","id":"sh/p8361sba","slide":15,"text":"第一個快捷鍵","textPreview":"第一個快捷鍵","textChars":6,"textLines":1,"bbox":[58,34,200,28]}
+{"kind":"textbox","id":"sh/o7u587up","slide":15,"text":"Shift + Enter：執行目前的 Cell","textPreview":"Shift + Enter：執行目前的 Cell","textChars":24,"textLines":1,"bbox":[58,70,1160,72]}
+{"kind":"textbox","id":"sh/ba5o32tg","slide":15,"text":"15","textPreview":"15","textChars":2,"textLines":1,"bbox":[1170,670,50,24]}
+{"kind":"shape","id":"sh/q9cnaxcv","slide":15,"bbox":[220,230,840,200]}
+{"kind":"textbox","id":"sh/xcn65cbm","slide":15,"text":"Shift","textPreview":"Shift","textChars":5,"textLines":1,"bbox":[305,285,210,70]}
+{"kind":"textbox","id":"sh/cbe5c7u1","slide":15,"text":"+","textPreview":"+","textChars":1,"textLines":1,"bbox":[535,285,80,70]}
+{"kind":"textbox","id":"sh/zy5o7mts","slide":15,"text":"Enter","textPreview":"Enter","textChars":5,"textLines":1,"bbox":[635,285,300,70]}
+{"kind":"textbox","id":"sh/ydw7ehc7","slide":15,"text":"執行後會移到下一個 Cell","textPreview":"執行後會移到下一個 Cell","textChars":14,"textLines":1,"bbox":[330,490,620,42]}
+{"kind":"notes","id":"nt/x7ofxh","slide":15,"text":""}
+{"kind":"slide","id":"sl/snp7if","slide":16,"title":"動手操作","textShapes":6}
+{"kind":"shape","id":"sh/by5s3qhw","slide":16,"bbox":[0,0,18,720]}
+{"kind":"textbox","id":"sh/cze9wvyh","slide":16,"text":"動手操作","textPreview":"動手操作","textChars":4,"textLines":1,"bbox":[58,34,200,28]}
+{"kind":"textbox","id":"sh/x0na50z2","slide":16,"text":"第一個 Python 程式：讓電腦顯示文字","textPreview":"第一個 Python 程式：讓電腦顯示文字","textChars":21,"textLines":1,"bbox":[58,70,1160,72]}
+{"kind":"textbox","id":"sh/y1gry5gn","slide":16,"text":"16","textPreview":"16","textChars":2,"textLines":1,"bbox":[1170,670,50,24]}
+{"kind":"shape","id":"sh/z2ps7ahs","slide":16,"bbox":[140,220,1000,170]}
+{"kind":"textbox","id":"sh/k3y90fyd","slide":16,"text":"print(\"Hello, Python!\")","textPreview":"print(\"Hello, Python!\")","textChars":23,"textLines":1,"bbox":[185,267,910,66]}
+{"kind":"textbox","id":"sh/l47a9kzy","slide":16,"text":"輸入完成後按 Shift + Enter","textPreview":"輸入完成後按 Shift + Enter","textChars":20,"textLines":1,"bbox":[330,445,620,42]}
+{"kind":"textbox","id":"sh/e5crmlg3","slide":16,"text":"看到 Hello, Python! 就代表環境成功。","textPreview":"看到 Hello, Python! 就代表環境成功。","textChars":26,"textLines":1,"bbox":[300,515,680,40]}
+{"kind":"notes","id":"nt/snp7if","slide":16,"text":""}
+{"kind":"slide","id":"sl/dseocn","slide":17,"title":"完成檢查","textShapes":11}
+{"kind":"shape","id":"sh/654zy9kz","slide":17,"bbox":[0,0,18,720]}
+{"kind":"textbox","id":"sh/tsfytoja","slide":17,"text":"完成檢查","textPreview":"完成檢查","textChars":4,"textLines":1,"bbox":[58,34,200,28]}
+{"kind":"textbox","id":"sh/sr6h0j25","slide":17,"text":"下課前完成環境確認","textPreview":"下課前完成環境確認","textChars":9,"textLines":1,"bbox":[58,70,1160,72]}
+{"kind":"textbox","id":"sh/j2dgne18","slide":17,"text":"17","textPreview":"17","textChars":2,"textLines":1,"bbox":[1170,670,50,24]}
+{"kind":"textbox","id":"sh/y14zu9kn","slide":17,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[120,185,28,40]}
+{"kind":"textbox","id":"sh/l4vyp4je","slide":17,"text":"可以開啟 Anaconda Navigator","textPreview":"可以開啟 Anaconda Navigator","textChars":23,"textLines":1,"bbox":[160,185,1000,58]}
+{"kind":"textbox","id":"sh/k3mhwj2t","slide":17,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[120,273,28,40]}
+{"kind":"textbox","id":"sh/3yh0zy1s","slide":17,"text":"可以從 Navigator 啟動 JupyterLab","textPreview":"可以從 Navigator 啟動 JupyterLab","textChars":27,"textLines":1,"bbox":[160,273,1000,58]}
+{"kind":"textbox","id":"sh/2xoz6tk7","slide":17,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[120,361,28,40]}
+{"kind":"textbox","id":"sh/ozq9sjet","slide":17,"text":"可以建立或開啟 Notebook","textPreview":"可以建立或開啟 Notebook","textChars":16,"textLines":1,"bbox":[160,361,1000,58]}
+{"kind":"textbox","id":"sh/p0zq1ove","slide":17,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[120,449,28,40]}
+{"kind":"textbox","id":"sh/2d8rqtwn","slide":17,"text":"可以用 Shift + Enter 執行 print","textPreview":"可以用 Shift + Enter 執行 print","textChars":26,"textLines":1,"bbox":[160,449,1000,58]}
+{"kind":"notes","id":"nt/dseocn","slide":17,"text":""}
+{"kind":"slide","id":"sl/9ennge","slide":18,"title":"今天完成的不是一堆語法，","textShapes":4}
+{"kind":"textbox","id":"sh/8v25wf2l","slide":18,"text":"今天完成的不是一堆語法，","textPreview":"今天完成的不是一堆語法，","textChars":12,"textLines":1,"bbox":[120,165,1040,60]}
+{"kind":"textbox","id":"sh/nut4nal0","slide":18,"text":"而是一套可以持續練習的 Python 環境。","textPreview":"而是一套可以持續練習的 Python 環境。","textChars":22,"textLines":1,"bbox":[120,245,1040,70]}
+{"kind":"shape","id":"sh/mtknupkf","slide":18,"bbox":[425,390,430,90]}
+{"kind":"textbox","id":"sh/lsrmlk3a","slide":18,"text":"下一堂：變數、型別與運算","textPreview":"下一堂：變數、型別與運算","textChars":12,"textLines":1,"bbox":[455,417,370,42]}
+{"kind":"textbox","id":"sh/0rilsf2p","slide":18,"text":"請保留安裝完成的電腦與課程資料夾","textPreview":"請保留安裝完成的電腦與課程資料夾","textChars":16,"textLines":1,"bbox":[320,565,640,34]}
+{"kind":"notes","id":"nt/9ennge","slide":18,"text":""}

@@ -1,0 +1,127 @@
+"""Rebuild Lesson 01 and Lesson 02-1 learning notebooks with 20 worked examples."""
+
+from __future__ import annotations
+
+import json
+from pathlib import Path
+
+
+ROOT = Path(__file__).resolve().parents[1] / "lessons"
+
+
+def markdown(text: str) -> dict:
+    return {"cell_type": "markdown", "metadata": {}, "source": text.splitlines(keepends=True)}
+
+
+def code(text: str) -> dict:
+    return {
+        "cell_type": "code",
+        "execution_count": None,
+        "metadata": {},
+        "outputs": [],
+        "source": text.splitlines(keepends=True),
+    }
+
+
+def rebuild(path: Path, title: str, intro: str, examples: list[tuple[str, str, str]]) -> None:
+    original = json.loads(path.read_text(encoding="utf-8"))
+    cells = [markdown(f"# {title}\n\n{intro}\n\n本教材共有 **20 個課堂例題**。每題先猜結果，再執行，最後改成自己的版本。")]
+    for number, (name, note, source) in enumerate(examples, start=1):
+        cells.append(markdown(f"## 例題 {number:02d}｜{name}\n\n{note}"))
+        cells.append(code(source))
+    cells.append(markdown("## 本堂完成\n\n你已完成 20 個例題。不要只看懂：請至少挑 3 題換成自己的姓名、興趣或生活資料，再執行一次。"))
+    original["cells"] = cells
+    path.write_text(json.dumps(original, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+
+
+LESSON01 = [
+    ("第一句 Python", "先按 Shift + Enter，確認環境可以執行。", "print('Hello, Python!')\nprint('我成功執行第一段程式了！')"),
+    ("向自己打招呼", "修改姓名，做出第一個個人化程式。", "print('你好，我是小明！')\nprint('今天開始學 Python。')"),
+    ("一次顯示多項資料", "print 裡的逗號會自動產生空格。", "print('姓名：', 'Amy')\nprint('職業：', '行銷企劃')\nprint('目標：', '用程式整理資料')"),
+    ("文字和數字不一樣", "先猜猜看：兩行輸出為什麼不同？", "print('100 + 20')\nprint(100 + 20)"),
+    ("生活計算機", "Python 可以直接處理加、減、乘、除。", "print('早餐總價：', 45 + 35)\nprint('找零：', 100 - 80)\nprint('三杯飲料：', 65 * 3)\nprint('四人平分：', 600 / 4)"),
+    ("用變數保存姓名", "變數就像貼了標籤的盒子。", "student_name = 'Amy'\nprint('歡迎', student_name)"),
+    ("用變數保存數字", "修改練習時數，看看結果如何改變。", "weekly_hours = 3\nprint('我每週練習', weekly_hours, '小時')"),
+    ("更新盒子裡的內容", "同一個變數可以換成新資料。", "mood = '有點緊張'\nprint('上課前：', mood)\nmood = '開始有信心'\nprint('執行成功後：', mood)"),
+    ("飲料訂單", "只修改數量，就能重複使用計算步驟。", "drink = '紅茶'\nprice = 35\nquantity = 2\ntotal = price * quantity\nprint(drink, quantity, '杯，共', total, '元')"),
+    ("午餐分帳", "觀察 / 的計算結果。", "bill = 840\npeople = 4\nper_person = bill / people\nprint('每人支付：', per_person, '元')"),
+    ("通勤時間", "把分鐘拆成去程與回程，算出一天總時間。", "one_way_minutes = 35\ndaily_minutes = one_way_minutes * 2\nprint('一天通勤', daily_minutes, '分鐘')"),
+    ("購物找零", "總價先保存，再用付款金額減掉它。", "item_price = 79\nquantity = 3\npaid = 500\ntotal = item_price * quantity\nchange = paid - total\nprint('總價：', total)\nprint('找零：', change)"),
+    ("氣溫小報告", "文字與變數可以一起輸出。", "city = '台北'\ntemperature = 28\nprint(city, '今天', temperature, '度')"),
+    ("倒數三秒", "程式會依照由上到下的順序執行。", "print(3)\nprint(2)\nprint(1)\nprint('開始！')"),
+    ("簡單分隔線", "重複文字也可以用乘法。", "print('=' * 24)\nprint('我的學習紀錄')\nprint('=' * 24)"),
+    ("商品收據", "將品名、單價、數量與總價組合成易讀結果。", "product = '筆記本'\nunit_price = 50\nquantity = 3\nprint('=== 購物收據 ===')\nprint('商品：', product)\nprint('數量：', quantity)\nprint('總價：', unit_price * quantity)"),
+    ("替錯誤找線索", "先看註解中的錯誤，再執行修正版。", "# print(unknown_name)  # 變數尚未建立，會出現 NameError\nunknown_name = '已經先建立了'\nprint(unknown_name)"),
+    ("修正引號錯誤", "字串左右引號必須成對。", "# print('少了右邊引號)  # 取消註解會出現 SyntaxError\nprint('引號已經修好了！')"),
+    ("個人名片", "把四個值改成自己的資料，就完成一張文字名片。", "name = 'Amy'\njob = '行銷企劃'\nskill = '整理資料'\nhobby = '旅行'\nprint('=== 我的名片 ===')\nprint('姓名：', name)\nprint('工作：', job)\nprint('想學會：', skill)\nprint('興趣：', hobby)"),
+    ("小作品：學習宣言", "完成後可以念給同學聽，這就是第一個可展示作品。", "name = 'Amy'\ngoal = '用 Python 解決工作中的重複任務'\nweekly_hours = 4\nprint('=== 我的 Python 學習宣言 ===')\nprint('我是', name)\nprint('我的目標是：', goal)\nprint('我每週會練習', weekly_hours, '小時')\nprint('先求完成，再慢慢變厲害！')"),
+]
+
+
+LESSON02 = [
+    ("print 顯示多個內容", "逗號適合把文字與資料一起輸出。", "name = 'Amy'\nscore = 95\nprint('姓名：', name, '分數：', score)"),
+    ("sep 自訂分隔符號", "sep 可以控制多個內容之間放什麼。", "print('2026', '07', '19', sep='-')\nprint('Python', 'Excel', 'SQL', sep=' / ')"),
+    ("end 控制換行", "end 可以讓下一個 print 接在同一行。", "print('Hello', end=' ')\nprint('Python')"),
+    ("變數讓程式可重用", "只換資料，不必重寫顯示邏輯。", "product_name = 'Coffee'\nunit_price = 120\nquantity = 3\nprint(product_name, '小計：', unit_price * quantity)"),
+    ("int：數幾個", "年齡、人數、件數與庫存通常是沒有小數點的整數。", "age = 25\nstudents = 18\nstock = 120\nprint(age, students, stock)\nprint(type(age))"),
+    ("float：精確測量", "身高、重量、價格與折扣常需要小數。", "height = 168.5\nprice = 99.9\ndiscount = 0.8\nprint(height, price, discount)\nprint(type(height))"),
+    ("int 與 float 一起計算", "運算中出現 float 時，結果通常也會是 float；除法 `/` 也通常得到 float。", "price = 80\ntax_rate = 0.05\ntotal = price * (1 + tax_rate)\nprint(total)\nprint(10 / 2)\nprint(type(total))"),
+    ("str：不只是一般文字", "電話、學號與郵遞區號雖然有數字，但不拿來計算，所以仍是字串。", "name = 'Amy'\nphone = '0912-345-678'\nstudent_id = '00123'\nprint(name, phone, student_id)\nprint(type(phone))"),
+    ("str 的常見操作", "字串可以串接、重複，也能用 len() 計算長度。", "first_name = 'Amy'\nlast_name = 'Chen'\nprint(first_name + ' ' + last_name)\nprint('Python! ' * 3)\nprint(len(first_name))"),
+    ("bool：生活中的是與否", "付款、登入、有沒有票，都可以用 True 或 False 表示。", "is_paid = True\nis_logged_in = False\nhas_ticket = True\nprint(is_paid, is_logged_in, has_ticket)\nprint(type(is_paid))"),
+    ("比較運算產生 bool", "問 Python 一個是非題，它會回答 True 或 False。", "age = 20\nprint(age >= 18)\nprint(age == 20)\nprint(age != 20)"),
+    ("用 type 偵查資料", "不確定資料型態時，直接請 Python 告訴你。", "age = 20\nprice = 99.5\nname = 'Amy'\nis_paid = True\nprint(type(age), type(price), type(name), type(is_paid))"),
+    ("同樣外觀，不同型態", "數字會相加，字串會接在一起。", "print(10 + 5)\nprint('10' + '5')"),
+    ("數字轉成 str", "要用 + 串接文字時，可以先用 str() 把數字轉成字串。", "age = 20\nmessage = '我今年 ' + str(age) + ' 歲'\nprint(message)\nprint(type(str(age)))"),
+    ("字串轉成數字", "網頁或 input 取得的數字常需用 int() 或 float() 轉型。", "quantity = int('3')\nrate = float('0.8')\nprint(quantity + 2)\nprint(500 * rate)"),
+    ("input 取得姓名", "課堂上取消註解；input 得到的資料一定先是 str。", "# name = input('你的名字：')\n# print('你好，', name)\n# print(type(name))\nprint('示範時請取消上方三行註解')"),
+    ("輸入數字要轉型", "如果輸入後要計算，請先轉成 int 或 float。", "# age = int(input('你的年齡：'))\n# print('明年是', age + 1, '歲')\nprint('示範時請取消上方兩行註解')"),
+    ("飲料訂購計算器", "把 input、轉型與乘法串在一起。", "# drink = input('飲料名稱：')\n# price = int(input('單價：'))\n# quantity = int(input('數量：'))\n# print(drink, '總價：', price * quantity)\nprint('示範時請取消上方四行註解')"),
+    ("除錯：input 和數字", "input 是 str，必須先轉成 int 才能加 1。", "age_text = '20'  # 模擬 input 得到的文字\n# print(age_text + 1)  # TypeError\nage = int(age_text)\nprint('明年', age + 1, '歲')"),
+    ("小作品：活動報名確認單", "綜合輸出、變數、型態與計算，改成自己的活動版本。", "event = 'Python 入門工作坊'\nname = 'Amy'\nticket_price = 500\nquantity = 2\nis_paid = True\ntotal = ticket_price * quantity\nprint('=== 報名確認單 ===')\nprint('活動：', event)\nprint('參加者：', name)\nprint('票數：', quantity)\nprint('總金額：', total)\nprint('已付款：', is_paid)"),
+]
+
+
+LESSON02_2 = [
+    ("一個值與多筆資料", "比較單一變數與 List；資料變多時，需要容器協助整理。", "name = 'Amy'\nnames = ['Amy', 'Bob', 'Cindy']\nprint(name)\nprint(names)"),
+    ("建立課程 List", "List 使用中括號，內容依照放入順序排列。", "courses = ['Python', 'Excel', 'SQL']\nprint(courses)\nprint('共有', len(courses), '門課')"),
+    ("用 Index 取得資料", "Index 從 0 開始；-1 可以取得最後一筆。", "courses = ['Python', 'Excel', 'SQL']\nprint('第一門：', courses[0])\nprint('第二門：', courses[1])\nprint('最後一門：', courses[-1])"),
+    ("餐廳候位名單", "排隊有先後順序，很適合使用 List。先猜 Bob 的 Index。", "waiting = ['Amy', 'Bob', 'Cindy']\nprint('第一位：', waiting[0])\nprint('Bob 的 Index：', waiting.index('Bob'))\nprint('最後一位：', waiting[-1])"),
+    ("修改 List 內容", "List 可以修改；用 Index 指定要換掉哪一筆。", "drinks = ['紅茶', '綠茶', '奶茶']\nprint('修改前：', drinks)\ndrinks[1] = '烏龍茶'\nprint('修改後：', drinks)"),
+    ("append 加到最後", "購物清單臨時多一項商品，可以用 append。", "shopping = ['牛奶', '麵包']\nshopping.append('雞蛋')\nshopping.append('水果')\nprint(shopping)"),
+    ("insert 插入指定位置", "最優先的待辦事項可以插到第 0 格。", "tasks = ['回覆 Email', '整理報表']\ntasks.insert(0, '參加早會')\nprint(tasks)"),
+    ("remove 依內容刪除", "知道要刪除的內容時使用 remove。", "cart = ['鉛筆', '筆記本', '橡皮擦']\ncart.remove('鉛筆')\nprint(cart)"),
+    ("pop 依位置取出", "pop 會刪除並回傳資料；不填 Index 時取出最後一筆。", "queue = ['Amy', 'Bob', 'Cindy']\nserved = queue.pop(0)\nprint('已服務：', served)\nprint('仍在等候：', queue)"),
+    ("List 小作品：旅行清單", "綜合建立、新增、插入、修改與刪除。", "travel_list = ['台南', '高雄']\ntravel_list.append('花蓮')\ntravel_list.insert(0, '台北')\ntravel_list[2] = '屏東'\ntravel_list.remove('台南')\nprint('我的旅行清單：', travel_list)"),
+    ("建立學生 Dict", "Dict 使用大括號，透過 Key 對應 Value。", "student = {\n    'name': 'Amy',\n    'age': 20,\n    'score': 95\n}\nprint(student)"),
+    ("手機聯絡人", "查聯絡人時不用記住第幾格，直接使用欄位名稱。", "contact = {\n    'name': '媽媽',\n    'phone': '0912-345-678'\n}\nprint(contact['name'])\nprint(contact['phone'])"),
+    ("讀取與更新 Dict", "有相同 Key 時會更新原本的 Value。", "student = {'name': 'Amy', 'score': 95}\nprint('原分數：', student['score'])\nstudent['score'] = 100\nprint('新分數：', student['score'])"),
+    ("新增 Dict 欄位", "指定不存在的 Key，就會新增一個欄位。", "student = {'name': 'Amy', 'score': 95}\nstudent['city'] = 'Taipei'\nstudent['is_student'] = True\nprint(student)"),
+    ("用 get 避免 KeyError", "get 找不到 Key 時不會讓程式停止，還能提供預設文字。", "student = {'name': 'Amy', 'score': 95}\nprint(student.get('email'))\nprint(student.get('email', '尚未提供'))\n# print(student['email'])  # 取消註解會出現 KeyError"),
+    ("Dict 小作品：商品小卡", "用有意義的欄位名稱管理商品資料。", "product = {'name': 'Notebook', 'price': 120, 'stock': 8}\nproduct['stock'] = product['stock'] - 1\nproduct['category'] = 'Stationery'\nprint('商品：', product['name'])\nprint('售價：', product['price'])\nprint('剩餘庫存：', product['stock'])\nprint('分類：', product['category'])"),
+    ("Tuple 保存固定座標", "Tuple 使用小括號，適合建立後不應修改的資料。", "gps = (25.0330, 121.5654)\nprint('緯度：', gps[0])\nprint('經度：', gps[1])\n# gps[0] = 24.0  # Tuple 不能修改"),
+    ("Tuple 保存品牌顏色", "RGB 是固定的三個數值，可以使用 Tuple 表示。", "brand_blue = (20, 80, 160)\nred, green, blue = brand_blue\nprint('R：', red)\nprint('G：', green)\nprint('B：', blue)"),
+    ("Set 移除重複報名", "同一個 Email 報名兩次，轉成 Set 後只保留一份。", "emails = ['amy@test.com', 'bob@test.com', 'amy@test.com']\nunique_emails = set(emails)\nunique_emails.add('cindy@test.com')\nprint(unique_emails)\nprint('不重複人數：', len(unique_emails))"),
+    ("綜合小作品：學習儀表板", "使用 List、Dict、Tuple 與 Set 整理一位學生的學習資料。", "tasks = ['完成 Lesson 01', '練習 List', '複習 Dict']\nprofile = {'name': 'Amy', 'hours': 4, 'goal': '完成資料分析作品'}\nclass_time = (9, 30)\nskills = {'print', '變數', 'List', 'Dict', 'List'}\nprint('=== 學習儀表板 ===')\nprint('學員：', profile['name'])\nprint('本週任務：', tasks)\nprint('上課時間：', class_time)\nprint('已學技能：', skills)\nprint('技能數量：', len(skills))\nprint('最終目標：', profile['goal'])"),
+]
+
+
+if __name__ == "__main__":
+    rebuild(
+        ROOT / "lesson01_first_analysis" / "lesson01_learning.ipynb",
+        "Lesson 01｜Python 初體驗與 Notebook",
+        "今天先熟悉環境；程式內容以「敢執行、敢修改、看得懂錯誤」為目標。",
+        LESSON01,
+    )
+    rebuild(
+        ROOT / "lesson02_python_basics" / "lesson02_learning.ipynb",
+        "Lesson 02-1｜輸入、輸出、變數與基本型態",
+        "從固定資料，進展到能和使用者互動、處理生活計算的小程式。",
+        LESSON02,
+    )
+    rebuild(
+        ROOT / "lesson02_data_structures" / "lesson02_2_learning.ipynb",
+        "Lesson 02-2｜List、Tuple、Dict、Set",
+        "從一個值，走向能依照需求整理多筆資料的容器。",
+        LESSON02_2,
+    )
