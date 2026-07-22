@@ -14,8 +14,14 @@ TARGETS = [
     ROOT / "course_v2/lessons/lesson01_first_analysis/lesson01_solutions.ipynb",
     ROOT / "course_v2/lessons/lesson02_python_basics/lesson02_learning.ipynb",
     ROOT / "course_v2/lessons/lesson02_python_basics/lesson02_solutions.ipynb",
-    ROOT / "course_v2/lessons/lesson02_data_structures/lesson02_2_learning.ipynb",
-    ROOT / "course_v2/lessons/lesson02_data_structures/lesson02_2_solutions.ipynb",
+    ROOT / "course_v2/lessons/lesson03_conditions/lesson03_learning.ipynb",
+    ROOT / "course_v2/lessons/lesson03_conditions/lesson03_solutions.ipynb",
+    ROOT / "course_v2/lessons/lesson04_list_tuple/lesson04_learning.ipynb",
+    ROOT / "course_v2/lessons/lesson04_list_tuple/lesson04_solutions.ipynb",
+    ROOT / "course_v2/lessons/lesson05_dict_set/lesson05_learning.ipynb",
+    ROOT / "course_v2/lessons/lesson05_dict_set/lesson05_solutions.ipynb",
+    ROOT / "course_v2/lessons/lesson06_for_loops/lesson06_learning.ipynb",
+    ROOT / "course_v2/lessons/lesson06_for_loops/lesson06_solutions.ipynb",
 ]
 
 

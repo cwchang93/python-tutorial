@@ -9,6 +9,12 @@
 - 通用教學規則：[TEACHER_GUIDE.md](TEACHER_GUIDE.md)
 - 第一堂：[lessons/lesson01_first_analysis/README.md](lessons/lesson01_first_analysis/README.md)
 - 第二堂：[lessons/lesson02_python_basics/README.md](lessons/lesson02_python_basics/README.md)
+- 第三堂：[lessons/lesson03_conditions/README.md](lessons/lesson03_conditions/README.md)
+- 第四堂：[List 深入與 Tuple 入門](lessons/lesson04_list_tuple/README.md)
+- 第五堂：[Dict 深入與 Set 入門](lessons/lesson05_dict_set/README.md)
+- 第六堂：[for 迴圈與資料逐筆處理](lessons/lesson06_for_loops/README.md)
+
+目前實際進度完成至 Lesson 02；下一堂從 Lesson 03 條件判斷開始。
 
 ## 課程定位
 
@@ -41,4 +47,3 @@ jupyter lab
 ```
 
 若本機環境安裝失敗，將 notebook 與 `data/` 一起上傳 Google Colab 即可。
-

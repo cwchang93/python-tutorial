@@ -4,3 +4,6 @@ course_v2/lessons/**/*solutions*.ipynb
 # Local teacher generator currently contains the answer source as well.
 course_v2/tools/build_initial_notebooks.py
 course_v2/tools/update_lesson02_basics_practice.py
+course_v2/tools/build_lesson03_conditions.py
+course_v2/tools/build_lesson04_05_structures.py
+course_v2/tools/build_lesson06_loops.py
