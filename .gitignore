@@ -1,5 +1,8 @@
 # Teacher-only answer notebooks. Keep these local during the course.
 course_v2/lessons/**/*solutions*.ipynb
+course_v2/recap/*solutions*.md
+course_v2/recap/*extra_solutions*.md
+course_v2/recap/*solutions*.ipynb
 
 # Local teacher generator currently contains the answer source as well.
 course_v2/tools/build_initial_notebooks.py

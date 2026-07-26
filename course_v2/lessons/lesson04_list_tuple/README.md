@@ -4,8 +4,11 @@
 
 - 能建立、讀取、修改與增刪 `list`。
 - 能使用 Index、負數 Index 與切片取得資料。
+- 能使用切片的 `start:stop:step`、反轉，以及 List 的 `+`、`*` 運算。
+- 能分辨 alias 與 `copy()`／`[:]` 複製的差異。
 - 能使用 `in`、`len()`、`sum()`、`min()`、`max()` 處理清單。
 - 能說明 `list` 與 `tuple` 的主要差異。
+- 能理解 List 是 mutable、Tuple 是 immutable。
 - 能用 List 完成候位、購物車或任務板。
 
 ## 180 分鐘腳本
@@ -18,9 +21,9 @@
 | 70–80 | 檢討與休息 | solutions 1–3 |
 | 80–110 | append、insert、remove、pop | learning 6–10 |
 | 110–135 | ⭐ 必做第二輪，老師巡堂 | exercises 4–6 |
-| 135–150 | 切片、排序與統計 | learning 11–14 |
-| 150–165 | Tuple 特性與解包 | learning 15–17 |
-| 165–180 | ⭐⭐ 自由選做＋檢討一題 | exercises 7–12 |
+| 135–150 | 切片、List 運算、copy、排序與統計 | learning 11–18 |
+| 150–170 | Mutable／Immutable、Tuple 特性與解包 | learning 19–21 |
+| 170–180 | ⭐⭐ 自由選做＋檢討一題 | exercises 7–12 |
 
 ## 分級原則
 
@@ -35,4 +38,6 @@
 - 切片的結束位置不包含在結果中。
 - `append()` 修改原 List，不用再指定回去。
 - `remove()` 依內容；`pop()` 依位置。
+- `new = old` 是共用同一份 List；要獨立複製請用 `old.copy()` 或 `old[:]`。
+- `+` 會串接 List，`*` 會重複 List；不會改變原本 List。
 - Tuple 建立後不能修改。
