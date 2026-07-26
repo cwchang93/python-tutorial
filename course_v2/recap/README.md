@@ -7,3 +7,7 @@
 
 建議流程：先個人作答 8 分鐘，再兩人互相檢查，最後講師快速檢討。
 
+目前複習檔案：
+
+- `lesson01_02_review.ipynb`
+- `lesson03_04_review.ipynb`
