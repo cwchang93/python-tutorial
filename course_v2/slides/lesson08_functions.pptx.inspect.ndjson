@@ -1,0 +1,233 @@
+{"kind":"deck","id":"pr/3sqwre","name":"Deck"}
+{"kind":"layout","layoutId":"/ppt/slideMasters/slideMaster1.xml","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout1.xml","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/y90nupkv","slide":1,"title":"PYTHON 資料分析實戰","textShapes":7}
+{"kind":"shape","id":"sh/wn6dc7eh","slide":1,"bbox":[70,92,10,490]}
+{"kind":"textbox","id":"sh/547294r6","slide":1,"text":"PYTHON 資料分析實戰","textPreview":"PYTHON 資料分析實戰","textChars":13,"textLines":1,"bbox":[112,100,540,40]}
+{"kind":"textbox","id":"sh/k3yl0zql","slide":1,"text":"Lesson 08","textPreview":"Lesson 08","textChars":9,"textLines":1,"bbox":[112,190,800,70]}
+{"kind":"textbox","id":"sh/7qp4be9c","slide":1,"text":"函式 Function","textPreview":"函式 Function","textChars":11,"textLines":1,"bbox":[112,278,900,110]}
+{"kind":"textbox","id":"sh/65g3298r","slide":1,"text":"參數 · 回傳值 · 重複使用","textPreview":"參數 · 回傳值 · 重複使用","textChars":15,"textLines":1,"bbox":[112,430,720,42]}
+{"kind":"textbox","id":"sh/ts7md4r2","slide":1,"text":"JW｜課程講師","textPreview":"JW｜課程講師","textChars":7,"textLines":1,"bbox":[112,548,500,34]}
+{"kind":"shape","id":"sh/sryl4zqx","slide":1,"bbox":[940,140,220,220]}
+{"kind":"textbox","id":"sh/fu94fe98","slide":1,"text":"ƒ","textPreview":"ƒ","textChars":1,"textLines":1,"bbox":[978,190,150,90]}
+{"kind":"textbox","id":"sh/utg3698n","slide":1,"text":"START","textPreview":"START","textChars":5,"textLines":1,"bbox":[978,294,150,32]}
+{"kind":"notes","id":"nt/y90nupkv","slide":1,"text":""}
+{"kind":"slide","id":"sl/hwbqtkby","slide":2,"title":"本堂目標","textShapes":11}
+{"kind":"shape","id":"sh/nu58f2hs","slide":2,"bbox":[0,0,18,720]}
+{"kind":"textbox","id":"sh/9072xkry","slide":2,"text":"本堂目標","textPreview":"本堂目標","textChars":4,"textLines":1,"bbox":[58,34,200,28]}
+{"kind":"textbox","id":"sh/ozy1ofad","slide":2,"text":"把重複程式整理成可重複使用的工具","textPreview":"把重複程式整理成可重複使用的工具","textChars":16,"textLines":1,"bbox":[58,70,1160,72]}
+{"kind":"textbox","id":"sh/b29kza94","slide":2,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[1170,670,50,24]}
+{"kind":"textbox","id":"sh/a10jqpsj","slide":2,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[78,185,28,40]}
+{"kind":"textbox","id":"sh/x4r21kru","slide":2,"text":"用 def 定義函式並正確呼叫","textPreview":"用 def 定義函式並正確呼叫","textChars":15,"textLines":1,"bbox":[118,185,1080,58]}
+{"kind":"textbox","id":"sh/w3i1sfa9","slide":2,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[78,273,28,40]}
+{"kind":"textbox","id":"sh/r65knqtk","slide":2,"text":"用參數把資料傳進函式","textPreview":"用參數把資料傳進函式","textChars":10,"textLines":1,"bbox":[118,273,1080,58]}
+{"kind":"textbox","id":"sh/q5wjelsz","slide":2,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[78,361,28,40]}
+{"kind":"textbox","id":"sh/ove9o7yd","slide":2,"text":"用 return 把計算結果傳回來","textPreview":"用 return 把計算結果傳回來","textChars":17,"textLines":1,"bbox":[118,361,1080,58]}
+{"kind":"textbox","id":"sh/9wnqhczy","slide":2,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[78,449,28,40]}
+{"kind":"textbox","id":"sh/mtwrmxg7","slide":2,"text":"把訂單流程拆成小函式","textPreview":"把訂單流程拆成小函式","textChars":10,"textLines":1,"bbox":[118,449,1080,58]}
+{"kind":"notes","id":"nt/hwbqtkby","slide":2,"text":""}
+{"kind":"slide","id":"sl/ofy9wn61","slide":3,"title":"為什麼需要函式","textShapes":11}
+{"kind":"shape","id":"sh/83ulovat","slide":3,"bbox":[0,0,18,720]}
+{"kind":"textbox","id":"sh/cza94vmx","slide":3,"text":"為什麼需要函式","textPreview":"為什麼需要函式","textChars":7,"textLines":1,"bbox":[58,34,200,28]}
+{"kind":"textbox","id":"sh/d0jax03i","slide":3,"text":"同一段邏輯只寫一次，修改也只改一次","textPreview":"同一段邏輯只寫一次，修改也只改一次","textChars":17,"textLines":1,"bbox":[58,70,1160,72]}
+{"kind":"textbox","id":"sh/298ryl4v","slide":3,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[1170,670,50,24]}
+{"kind":"textbox","id":"sh/3ah8rqlg","slide":3,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[78,185,28,40]}
+{"kind":"textbox","id":"sh/obq90bml","slide":3,"text":"減少複製貼上","textPreview":"減少複製貼上","textChars":6,"textLines":1,"bbox":[118,185,1080,58]}
+{"kind":"textbox","id":"sh/pcjqtg36","slide":3,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[78,273,28,40]}
+{"kind":"textbox","id":"sh/m5cra54z","slide":3,"text":"讓程式名稱說明用途","textPreview":"讓程式名稱說明用途","textChars":9,"textLines":1,"bbox":[118,273,1080,58]}
+{"kind":"textbox","id":"sh/n6ls3alk","slide":3,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[78,361,28,40]}
+{"kind":"textbox","id":"sh/n2l4fq98","slide":3,"text":"方便測試不同資料","textPreview":"方便測試不同資料","textChars":8,"textLines":1,"bbox":[118,361,1080,58]}
+{"kind":"textbox","id":"sh/m1c3mlsn","slide":3,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[78,449,28,40]}
+{"kind":"textbox","id":"sh/943mhgre","slide":3,"text":"把複雜流程拆成小步驟","textPreview":"把複雜流程拆成小步驟","textChars":10,"textLines":1,"bbox":[118,449,1080,58]}
+{"kind":"notes","id":"nt/ofy9wn61","slide":3,"text":""}
+{"kind":"slide","id":"sl/jyx0ra1s","slide":4,"title":"函式的三個角色","textShapes":10}
+{"kind":"shape","id":"sh/x8vaxsfe","slide":4,"bbox":[0,0,18,720]}
+{"kind":"textbox","id":"sh/1cj2d8b6","slide":4,"text":"函式的三個角色","textPreview":"函式的三個角色","textChars":7,"textLines":1,"bbox":[58,34,200,28]}
+{"kind":"textbox","id":"sh/0ba143al","slide":4,"text":"參數、工作、回傳值","textPreview":"參數、工作、回傳值","textChars":9,"textLines":1,"bbox":[58,70,1160,72]}
+{"kind":"textbox","id":"sh/rm1k7yt4","slide":4,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[1170,670,50,24]}
+{"kind":"textbox","id":"sh/ql8jytsj","slide":4,"text":"參數","textPreview":"參數","textChars":2,"textLines":1,"bbox":[110,225,260,48]}
+{"kind":"textbox","id":"sh/doj29oba","slide":4,"text":"需要哪些資料","textPreview":"需要哪些資料","textChars":6,"textLines":1,"bbox":[510,225,260,48]}
+{"kind":"textbox","id":"sh/sna103ap","slide":4,"text":"工作","textPreview":"工作","textChars":2,"textLines":1,"bbox":[910,225,260,48]}
+{"kind":"shape","id":"sh/3ihk3et8","slide":4,"bbox":[190,320,100,100]}
+{"kind":"shape","id":"sh/ih8ju9sn","slide":4,"bbox":[590,320,100,100]}
+{"kind":"shape","id":"sh/kbm987y5","slide":4,"bbox":[990,320,100,100]}
+{"kind":"textbox","id":"sh/5cva1cfq","slide":4,"text":"函式內的步驟","textPreview":"函式內的步驟","textChars":6,"textLines":1,"bbox":[190,348,100,36]}
+{"kind":"textbox","id":"sh/i94r6xgz","slide":4,"text":"回傳","textPreview":"回傳","textChars":2,"textLines":1,"bbox":[590,348,100,36]}
+{"kind":"textbox","id":"sh/jadsz2xk","slide":4,"text":"把答案交出去","textPreview":"把答案交出去","textChars":6,"textLines":1,"bbox":[990,348,100,36]}
+{"kind":"textbox","id":"sh/w72947yt","slide":4,"text":"先想輸入與輸出，再開始寫 def。","textPreview":"先想輸入與輸出，再開始寫 def。","textChars":17,"textLines":1,"bbox":[250,515,780,48]}
+{"kind":"notes","id":"nt/jyx0ra1s","slide":4,"text":""}
+{"kind":"slide","id":"sl/i107q5of","slide":5,"title":"第一個函式","textShapes":11}
+{"kind":"shape","id":"sh/i54fmlc7","slide":5,"bbox":[0,0,18,720]}
+{"kind":"textbox","id":"sh/dgbulwnm","slide":5,"text":"第一個函式","textPreview":"第一個函式","textChars":5,"textLines":1,"bbox":[58,34,200,28]}
+{"kind":"textbox","id":"sh/cf2tcr61","slide":5,"text":"定義之後，仍要加括號才會執行","textPreview":"定義之後，仍要加括號才會執行","textChars":14,"textLines":1,"bbox":[58,70,1160,72]}
+{"kind":"textbox","id":"sh/z2tcnm5s","slide":5,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[1170,670,50,24]}
+{"kind":"shape","id":"sh/yhkbe1o7","slide":5,"bbox":[100,225,280,210]}
+{"kind":"textbox","id":"sh/l4bupwny","slide":5,"text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[130,265,220,50]}
+{"kind":"textbox","id":"sh/032tgr6d","slide":5,"text":"def say_hello():","textPreview":"def say_hello():","textChars":16,"textLines":1,"bbox":[130,345,220,32]}
+{"kind":"textbox","id":"sh/n6dcr65o","slide":5,"text":"+","textPreview":"+","textChars":1,"textLines":1,"bbox":[405,295,70,60]}
+{"kind":"shape","id":"sh/m5kbi1oj","slide":5,"bbox":[500,225,280,210]}
+{"kind":"textbox","id":"sh/w32dkbuh","slide":5,"text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[530,265,220,50]}
+{"kind":"textbox","id":"sh/x4vedgvm","slide":5,"text":"    print(\"Hello\")","textPreview":"print(\"Hello\")","textChars":18,"textLines":1,"bbox":[530,345,220,32]}
+{"kind":"textbox","id":"sh/ahkvi1cb","slide":5,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[805,295,70,60]}
+{"kind":"shape","id":"sh/v2twb6dw","slide":5,"bbox":[900,225,280,210]}
+{"kind":"textbox","id":"sh/k7mxovud","slide":5,"text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[930,265,220,50]}
+{"kind":"textbox","id":"sh/58vehgvy","slide":5,"text":"say_hello()","textPreview":"say_hello()","textChars":11,"textLines":1,"bbox":[930,345,220,32]}
+{"kind":"notes","id":"nt/i107q5of","slide":5,"text":""}
+{"kind":"slide","id":"sl/x8f69ofe","slide":6,"title":"參數","textShapes":10}
+{"kind":"shape","id":"sh/u1kbu1ov","slide":6,"bbox":[0,0,18,720]}
+{"kind":"textbox","id":"sh/yhg7epsj","slide":6,"text":"參數","textPreview":"參數","textChars":2,"textLines":1,"bbox":[58,34,200,28]}
+{"kind":"textbox","id":"sh/zi98nu94","slide":6,"text":"同一個函式可以處理不同資料","textPreview":"同一個函式可以處理不同資料","textChars":13,"textLines":1,"bbox":[58,70,1160,72]}
+{"kind":"textbox","id":"sh/87ipkzal","slide":6,"text":"06","textPreview":"06","textChars":2,"textLines":1,"bbox":[1170,670,50,24]}
+{"kind":"textbox","id":"sh/98rqt4r6","slide":6,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[110,220,28,40]}
+{"kind":"textbox","id":"sh/ml07i9sv","slide":6,"text":"greet(\"Bob\") 使用不同資料","textPreview":"greet(\"Bob\") 使用不同資料","textChars":19,"textLines":1,"bbox":[150,220,1000,58]}
+{"kind":"textbox","id":"sh/7m98ru9g","slide":6,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[110,325,28,40]}
+{"kind":"textbox","id":"sh/oryp8fah","slide":6,"text":"參數是函式的輸入","textPreview":"參數是函式的輸入","textChars":8,"textLines":1,"bbox":[150,325,1000,58]}
+{"kind":"textbox","id":"sh/pc76hkr2","slide":6,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[110,430,28,40]}
+{"kind":"textbox","id":"sh/h4bupgn6","slide":6,"text":"return 是函式的輸出","textPreview":"return 是函式的輸出","textChars":13,"textLines":1,"bbox":[150,430,1000,58]}
+{"kind":"shape","id":"sh/w32twb6l","slide":6,"bbox":[100,548,1080,58]}
+{"kind":"textbox","id":"sh/v2tcn650","slide":6,"text":"參數讓工具可以重複使用。","textPreview":"參數讓工具可以重複使用。","textChars":12,"textLines":1,"bbox":[125,561,1030,34]}
+{"kind":"notes","id":"nt/x8f69ofe","slide":6,"text":""}
+{"kind":"slide","id":"sl/gnmp4jqx","slide":7,"title":"兩個參數","textShapes":7}
+{"kind":"shape","id":"sh/baxkjqlk","slide":7,"bbox":[0,0,18,720]}
+{"kind":"textbox","id":"sh/cb2tkvap","slide":7,"text":"兩個參數","textPreview":"兩個參數","textChars":4,"textLines":1,"bbox":[58,34,200,28]}
+{"kind":"textbox","id":"sh/dcbud0ra","slide":7,"text":"呼叫時要提供正確數量與順序","textPreview":"呼叫時要提供正確數量與順序","textChars":13,"textLines":1,"bbox":[58,70,1160,72]}
+{"kind":"textbox","id":"sh/ydkbm5sv","slide":7,"text":"07","textPreview":"07","textChars":2,"textLines":1,"bbox":[1170,670,50,24]}
+{"kind":"textbox","id":"sh/zedcfa9g","slide":7,"text":"subtotal(price, quantity)","textPreview":"subtotal(price, quantity)","textChars":25,"textLines":1,"bbox":[140,225,1000,82]}
+{"kind":"shape","id":"sh/kzmdova1","slide":7,"bbox":[190,350,900,125]}
+{"kind":"textbox","id":"sh/l0vuh0rm","slide":7,"text":"price：商品單價","textPreview":"price：商品單價","textChars":10,"textLines":1,"bbox":[220,378,840,40]}
+{"kind":"textbox","id":"sh/eh0ba1sr","slide":7,"text":"quantity：購買數量","textPreview":"quantity：購買數量","textChars":13,"textLines":1,"bbox":[220,430,840,32]}
+{"kind":"textbox","id":"sh/fi9c369c","slide":7,"text":"呼叫時不可漏掉必要參數。","textPreview":"呼叫時不可漏掉必要參數。","textChars":12,"textLines":1,"bbox":[260,535,760,38]}
+{"kind":"notes","id":"nt/gnmp4jqx","slide":7,"text":""}
+{"kind":"slide","id":"sl/fu1gfa1s","slide":8,"title":"return","textShapes":7}
+{"kind":"shape","id":"sh/98rehwve","slide":8,"bbox":[0,0,18,720]}
+{"kind":"textbox","id":"sh/18byd4zy","slide":8,"text":"return","textPreview":"return","textChars":6,"textLines":1,"bbox":[58,34,200,28]}
+{"kind":"textbox","id":"sh/g72x4zyd","slide":8,"text":"print 只顯示；return 才能交給下一步","textPreview":"print 只顯示；return 才能交給下一步","textChars":24,"textLines":1,"bbox":[58,70,1160,72]}
+{"kind":"textbox","id":"sh/ri9g7uhw","slide":8,"text":"08","textPreview":"08","textChars":2,"textLines":1,"bbox":[1170,670,50,24]}
+{"kind":"shape","id":"sh/6h0fypgb","slide":8,"bbox":[80,195,535,330]}
+{"kind":"textbox","id":"sh/tkby9kzm","slide":8,"text":"print","textPreview":"print","textChars":5,"textLines":1,"bbox":[110,225,475,46]}
+{"kind":"textbox","id":"sh/sjix0zy1","slide":8,"text":"顯示在畫面上\n不能接著計算","textPreview":"顯示在畫面上 | 不能接著計算","textChars":13,"textLines":2,"bbox":[110,300,455,190]}
+{"kind":"shape","id":"sh/je9g3ahk","slide":8,"bbox":[665,195,535,330]}
+{"kind":"textbox","id":"sh/id0fu50z","slide":8,"text":"return","textPreview":"return","textChars":6,"textLines":1,"bbox":[695,225,475,46]}
+{"kind":"textbox","id":"sh/o7ydoret","slide":8,"text":"把答案交出去\n可以存入變數與再運算","textPreview":"把答案交出去 | 可以存入變數與再運算","textChars":17,"textLines":2,"bbox":[695,300,455,190]}
+{"kind":"notes","id":"nt/fu1gfa1s","slide":8,"text":""}
+{"kind":"slide","id":"sl/udsvah03","slide":9,"title":"print vs return","textShapes":5}
+{"kind":"shape","id":"sh/bih4na5w","slide":9,"bbox":[0,0,18,720]}
+{"kind":"textbox","id":"sh/1cfmhgne","slide":9,"text":"print vs return","textPreview":"print vs return","textChars":15,"textLines":1,"bbox":[58,34,200,28]}
+{"kind":"textbox","id":"sh/0b65obm9","slide":9,"text":"能否繼續使用，是兩者最大差別","textPreview":"能否繼續使用，是兩者最大差別","textChars":14,"textLines":1,"bbox":[58,70,1160,72]}
+{"kind":"textbox","id":"sh/nex4jq5k","slide":9,"text":"09","textPreview":"09","textChars":2,"textLines":1,"bbox":[1170,670,50,24]}
+{"kind":"shape","id":"sh/mdonql4z","slide":9,"bbox":[180,220,920,245]}
+{"kind":"textbox","id":"sh/9gzml0nq","slide":9,"text":"return 的結果可以存入變數再運算","textPreview":"return 的結果可以存入變數再運算","textChars":19,"textLines":1,"bbox":[230,285,820,62]}
+{"kind":"textbox","id":"sh/ofq5svm5","slide":9,"text":"print 適合最後顯示，不適合傳遞答案","textPreview":"print 適合最後顯示，不適合傳遞答案","textChars":20,"textLines":1,"bbox":[230,375,820,36]}
+{"kind":"notes","id":"nt/udsvah03","slide":9,"text":""}
+{"kind":"slide","id":"sl/m90b6t0r","slide":10,"title":"預設參數","textShapes":8}
+{"kind":"shape","id":"sh/q5gb21kb","slide":10,"bbox":[0,0,18,720]}
+{"kind":"textbox","id":"sh/xc3mho32","slide":10,"text":"預設參數","textPreview":"預設參數","textChars":4,"textLines":1,"bbox":[58,34,200,28]}
+{"kind":"textbox","id":"sh/cbu58j2h","slide":10,"text":"常用值先設定，特殊情況再覆蓋","textPreview":"常用值先設定，特殊情況再覆蓋","textChars":14,"textLines":1,"bbox":[58,70,1160,72]}
+{"kind":"textbox","id":"sh/zelojyl8","slide":10,"text":"10","textPreview":"10","textChars":2,"textLines":1,"bbox":[1170,670,50,24]}
+{"kind":"shape","id":"sh/ydcnatkn","slide":10,"bbox":[100,210,500,290]}
+{"kind":"textbox","id":"sh/l036l83y","slide":10,"text":"一般呼叫","textPreview":"一般呼叫","textChars":4,"textLines":1,"bbox":[140,250,420,48]}
+{"kind":"textbox","id":"sh/kzu5c32t","slide":10,"text":"greet(\"Amy\") 使用預設訊息","textPreview":"greet(\"Amy\") 使用預設訊息","textChars":19,"textLines":1,"bbox":[140,330,420,92]}
+{"kind":"shape","id":"sh/725onyl4","slide":10,"bbox":[680,210,500,290]}
+{"kind":"textbox","id":"sh/m1cnetkj","slide":10,"text":"自訂呼叫","textPreview":"自訂呼叫","textChars":4,"textLines":1,"bbox":[720,250,420,48]}
+{"kind":"textbox","id":"sh/s7yt4b21","slide":10,"text":"greet(\"Bob\", \"早安\")","textPreview":"greet(\"Bob\", \"早安\")","textChars":18,"textLines":1,"bbox":[720,330,420,92]}
+{"kind":"textbox","id":"sh/d87uxg3m","slide":10,"text":"必要參數要放在預設參數前面","textPreview":"必要參數要放在預設參數前面","textChars":13,"textLines":1,"bbox":[460,555,360,38]}
+{"kind":"notes","id":"nt/m90b6t0r","slide":10,"text":""}
+{"kind":"slide","id":"sl/jetc3ut0","slide":11,"title":"區域變數","textShapes":7}
+{"kind":"shape","id":"sh/ofqtgnyt","slide":11,"bbox":[0,0,18,720]}
+{"kind":"textbox","id":"sh/xcryxg7y","slide":11,"text":"區域變數","textPreview":"區域變數","textChars":4,"textLines":1,"bbox":[58,34,200,28]}
+{"kind":"textbox","id":"sh/wbih4b6d","slide":11,"text":"函式內的變數，只服務這次工作","textPreview":"函式內的變數，只服務這次工作","textChars":14,"textLines":1,"bbox":[58,70,1160,72]}
+{"kind":"textbox","id":"sh/n69grmpw","slide":11,"text":"11","textPreview":"11","textChars":2,"textLines":1,"bbox":[1170,670,50,24]}
+{"kind":"shape","id":"sh/250zy18b","slide":11,"bbox":[220,230,840,200]}
+{"kind":"textbox","id":"sh/98rytw72","slide":11,"text":"建立","textPreview":"建立","textChars":2,"textLines":1,"bbox":[305,285,210,70]}
+{"kind":"textbox","id":"sh/o7ih0r6h","slide":11,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[535,285,80,70]}
+{"kind":"textbox","id":"sh/72t03qp0","slide":11,"text":"return","textPreview":"return","textChars":6,"textLines":1,"bbox":[635,285,300,70]}
+{"kind":"textbox","id":"sh/61kzalof","slide":11,"text":"函式結束後，只保留回傳的結果。","textPreview":"函式結束後，只保留回傳的結果。","textChars":15,"textLines":1,"bbox":[330,490,620,42]}
+{"kind":"notes","id":"nt/jetc3ut0","slide":11,"text":""}
+{"kind":"slide","id":"sl/8f2psfyx","slide":12,"title":"程式骨架","textShapes":6}
+{"kind":"shape","id":"sh/a543mx4r","slide":12,"bbox":[0,0,18,720]}
+{"kind":"textbox","id":"sh/1gbm9s3a","slide":12,"text":"程式骨架","textPreview":"程式骨架","textChars":4,"textLines":1,"bbox":[58,34,200,28]}
+{"kind":"textbox","id":"sh/0f2lgnmp","slide":12,"text":"參數進來，結果回去","textPreview":"參數進來，結果回去","textChars":9,"textLines":1,"bbox":[58,70,1160,72]}
+{"kind":"textbox","id":"sh/ra943il8","slide":12,"text":"12","textPreview":"12","textChars":2,"textLines":1,"bbox":[1170,670,50,24]}
+{"kind":"shape","id":"sh/q903ad4n","slide":12,"bbox":[140,220,1000,170]}
+{"kind":"textbox","id":"sh/dcbm583y","slide":12,"text":"def subtotal(price, quantity):\n    total = price * quantity\n    return total","textPreview":"def subtotal(price, quantity): |     total = price * quantity |     return total","textChars":76,"textLines":3,"bbox":[185,267,910,66]}
+{"kind":"textbox","id":"sh/sb2lcnmd","slide":12,"text":"amount = subtotal(350, 3)","textPreview":"amount = subtotal(350, 3)","textChars":25,"textLines":1,"bbox":[330,445,620,42]}
+{"kind":"textbox","id":"sh/b6d4f2lc","slide":12,"text":"print(amount)  # 1050","textPreview":"print(amount)  # 1050","textChars":21,"textLines":1,"bbox":[300,515,680,40]}
+{"kind":"notes","id":"nt/8f2psfyx","slide":12,"text":""}
+{"kind":"slide","id":"sl/hgzapcr6","slide":13,"title":"動手練習","textShapes":11}
+{"kind":"shape","id":"sh/u9ofyp43","slide":13,"bbox":[0,0,18,720]}
+{"kind":"textbox","id":"sh/q50nydsj","slide":13,"text":"動手練習","textPreview":"動手練習","textChars":4,"textLines":1,"bbox":[58,34,200,28]}
+{"kind":"textbox","id":"sh/bq9orito","slide":13,"text":"建立 discount_price(price, rate)","textPreview":"建立 discount_price(price, rate)","textChars":30,"textLines":1,"bbox":[58,70,1160,72]}
+{"kind":"textbox","id":"sh/o3i5w3ad","slide":13,"text":"13","textPreview":"13","textChars":2,"textLines":1,"bbox":[1170,670,50,24]}
+{"kind":"textbox","id":"sh/p4r6p8by","slide":13,"text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[120,185,28,40]}
+{"kind":"textbox","id":"sh/21gnuts7","slide":13,"text":"定義兩個參數","textPreview":"定義兩個參數","textChars":6,"textLines":1,"bbox":[160,185,1000,58]}
+{"kind":"textbox","id":"sh/32ponyts","slide":13,"text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[120,273,28,40]}
+{"kind":"textbox","id":"sh/gzy5s3a1","slide":13,"text":"計算 price * rate","textPreview":"計算 price * rate","textChars":15,"textLines":1,"bbox":[160,273,1000,58]}
+{"kind":"textbox","id":"sh/1076lobm","slide":13,"text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[120,361,28,40]}
+{"kind":"textbox","id":"sh/hcfy9k3u","slide":13,"text":"用 return 回傳結果","textPreview":"用 return 回傳結果","textChars":13,"textLines":1,"bbox":[160,361,1000,58]}
+{"kind":"textbox","id":"sh/gb6x0zm9","slide":13,"text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[120,449,28,40]}
+{"kind":"textbox","id":"sh/vaxg7ulo","slide":13,"text":"呼叫並測試三組資料","textPreview":"呼叫並測試三組資料","textChars":9,"textLines":1,"bbox":[160,449,1000,58]}
+{"kind":"notes","id":"nt/hgzapcr6","slide":13,"text":""}
+{"kind":"slide","id":"sl/6lsnupw7","slide":14,"title":"常見錯誤","textShapes":11}
+{"kind":"shape","id":"sh/b2507exs","slide":14,"bbox":[0,0,18,720]}
+{"kind":"textbox","id":"sh/xc7eds76","slide":14,"text":"常見錯誤","textPreview":"常見錯誤","textChars":4,"textLines":1,"bbox":[58,34,200,28]}
+{"kind":"textbox","id":"sh/wbydknq1","slide":14,"text":"函式沒反應時，先檢查呼叫與 return","textPreview":"函式沒反應時，先檢查呼叫與 return","textChars":20,"textLines":1,"bbox":[58,70,1160,72]}
+{"kind":"textbox","id":"sh/jepwf2pc","slide":14,"text":"14","textPreview":"14","textChars":2,"textLines":1,"bbox":[1170,670,50,24]}
+{"kind":"textbox","id":"sh/idgvmx8r","slide":14,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[78,185,28,40]}
+{"kind":"textbox","id":"sh/5grehs7i","slide":14,"text":"只有 def，沒有呼叫函式","textPreview":"只有 def，沒有呼叫函式","textChars":13,"textLines":1,"bbox":[118,185,1080,58]}
+{"kind":"textbox","id":"sh/kfidonqx","slide":14,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[78,273,28,40]}
+{"kind":"textbox","id":"sh/zi5c3y98","slide":14,"text":"呼叫時漏掉括號","textPreview":"呼叫時漏掉括號","textChars":7,"textLines":1,"bbox":[118,273,1080,58]}
+{"kind":"textbox","id":"sh/ehwvat8n","slide":14,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[78,361,28,40]}
+{"kind":"textbox","id":"sh/c3e1gjyd","slide":14,"text":"參數數量或順序錯誤","textPreview":"參數數量或順序錯誤","textChars":9,"textLines":1,"bbox":[118,361,1080,58]}
+{"kind":"textbox","id":"sh/x4ni9ofy","slide":14,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[78,449,28,40]}
+{"kind":"textbox","id":"sh/a1wze9g7","slide":14,"text":"只 print，卻想把結果存起來","textPreview":"只 print，卻想把結果存起來","textChars":16,"textLines":1,"bbox":[118,449,1080,58]}
+{"kind":"notes","id":"nt/6lsnupw7","slide":14,"text":""}
+{"kind":"slide","id":"sl/vaxsvy10","slide":15,"title":"小作品","textShapes":11}
+{"kind":"shape","id":"sh/it4rm5wv","slide":15,"bbox":[0,0,18,720]}
+{"kind":"textbox","id":"sh/547mhg3m","slide":15,"text":"小作品","textPreview":"小作品","textChars":3,"textLines":1,"bbox":[58,34,200,28]}
+{"kind":"textbox","id":"sh/k3y5ov21","slide":15,"text":"訂單工具組：小計、運費、總額","textPreview":"訂單工具組：小計、運費、總額","textChars":14,"textLines":1,"bbox":[58,70,1160,72]}
+{"kind":"textbox","id":"sh/76p4jqls","slide":15,"text":"15","textPreview":"15","textChars":2,"textLines":1,"bbox":[1170,670,50,24]}
+{"kind":"shape","id":"sh/65gnqlk7","slide":15,"bbox":[100,225,280,210]}
+{"kind":"textbox","id":"sh/t87ml0ji","slide":15,"text":"subtotal","textPreview":"subtotal","textChars":8,"textLines":1,"bbox":[130,265,220,50]}
+{"kind":"textbox","id":"sh/s7y5sv2x","slide":15,"text":"單價 × 數量","textPreview":"單價 × 數量","textChars":7,"textLines":1,"bbox":[130,345,220,32]}
+{"kind":"textbox","id":"sh/na5476l8","slide":15,"text":"+","textPreview":"+","textChars":1,"textLines":1,"bbox":[405,295,70,60]}
+{"kind":"shape","id":"sh/m9c3e1kn","slide":15,"bbox":[500,225,280,210]}
+{"kind":"textbox","id":"sh/wrm9kvep","slide":15,"text":"shipping","textPreview":"shipping","textChars":8,"textLines":1,"bbox":[530,265,220,50]}
+{"kind":"textbox","id":"sh/hsvat0fa","slide":15,"text":"依小計判斷","textPreview":"依小計判斷","textChars":5,"textLines":1,"bbox":[530,345,220,32]}
+{"kind":"textbox","id":"sh/upkrilwj","slide":15,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[805,295,70,60]}
+{"kind":"shape","id":"sh/vqdsrqx4","slide":15,"bbox":[900,225,280,210]}
+{"kind":"textbox","id":"sh/4vm9ovel","slide":15,"text":"total","textPreview":"total","textChars":5,"textLines":1,"bbox":[930,265,220,50]}
+{"kind":"textbox","id":"sh/5wvax0f6","slide":15,"text":"小計 + 運費","textPreview":"小計 + 運費","textChars":7,"textLines":1,"bbox":[930,345,220,32]}
+{"kind":"notes","id":"nt/vaxsvy10","slide":15,"text":""}
+{"kind":"slide","id":"sl/gny5sjyp","slide":16,"title":"驗收題","textShapes":7}
+{"kind":"shape","id":"sh/e1sf65o3","slide":16,"bbox":[0,0,18,720]}
+{"kind":"textbox","id":"sh/8z2h8bq1","slide":16,"text":"驗收題","textPreview":"驗收題","textChars":3,"textLines":1,"bbox":[58,34,200,28]}
+{"kind":"textbox","id":"sh/9kby1g7m","slide":16,"text":"把一大段程式拆成三個小工具","textPreview":"把一大段程式拆成三個小工具","textChars":13,"textLines":1,"bbox":[58,70,1160,72]}
+{"kind":"textbox","id":"sh/ytkf2h8j","slide":16,"text":"16","textPreview":"16","textChars":2,"textLines":1,"bbox":[1170,670,50,24]}
+{"kind":"shape","id":"sh/zutgvm94","slide":16,"bbox":[80,195,535,330]}
+{"kind":"textbox","id":"sh/kv2h4rqp","slide":16,"text":"計算","textPreview":"計算","textChars":2,"textLines":1,"bbox":[110,225,475,46]}
+{"kind":"textbox","id":"sh/lwbyxwra","slide":16,"text":"subtotal(price, quantity)","textPreview":"subtotal(price, quantity)","textChars":25,"textLines":1,"bbox":[110,300,455,190]}
+{"kind":"shape","id":"sh/ip4zel83","slide":16,"bbox":[665,195,535,330]}
+{"kind":"textbox","id":"sh/3qdg7qpo","slide":16,"text":"整合","textPreview":"整合","textChars":2,"textLines":1,"bbox":[695,225,475,46]}
+{"kind":"textbox","id":"sh/fm1gzq5o","slide":16,"text":"shipping_fee(amount)\norder_total(amount, fee)","textPreview":"shipping_fee(amount) | order_total(amount, fee)","textChars":45,"textLines":2,"bbox":[695,300,455,190]}
+{"kind":"notes","id":"nt/gny5sjyp","slide":16,"text":""}
+{"kind":"slide","id":"sl/14bup87q","slide":17,"title":"完成檢查","textShapes":11}
+{"kind":"shape","id":"sh/3ap8fm50","slide":17,"bbox":[0,0,18,720]}
+{"kind":"textbox","id":"sh/1c7e50ni","slide":17,"text":"完成檢查","textPreview":"完成檢查","textChars":4,"textLines":1,"bbox":[58,34,200,28]}
+{"kind":"textbox","id":"sh/gbedwfmx","slide":17,"text":"下課前確認你能做到","textPreview":"下課前確認你能做到","textChars":9,"textLines":1,"bbox":[58,70,1160,72]}
+{"kind":"textbox","id":"sh/rm5czq50","slide":17,"text":"17","textPreview":"17","textChars":2,"textLines":1,"bbox":[1170,670,50,24]}
+{"kind":"textbox","id":"sh/6lwvql4v","slide":17,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[120,185,28,40]}
+{"kind":"textbox","id":"sh/t8ne10n6","slide":17,"text":"能定義與呼叫函式","textPreview":"能定義與呼叫函式","textChars":8,"textLines":1,"bbox":[160,185,1000,58]}
+{"kind":"textbox","id":"sh/snedsvml","slide":17,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[120,273,28,40]}
+{"kind":"textbox","id":"sh/jilcvq54","slide":17,"text":"能使用一個或多個參數","textPreview":"能使用一個或多個參數","textChars":10,"textLines":1,"bbox":[160,273,1000,58]}
+{"kind":"textbox","id":"sh/ihcvml4j","slide":17,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[120,361,28,40]}
+{"kind":"textbox","id":"sh/4by9or6l","slide":17,"text":"能說明 print 與 return 的差別","textPreview":"能說明 print 與 return 的差別","textChars":22,"textLines":1,"bbox":[160,361,1000,58]}
+{"kind":"textbox","id":"sh/pc7qhwn6","slide":17,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[120,449,28,40]}
+{"kind":"textbox","id":"sh/29grm1of","slide":17,"text":"能用函式完成訂單工具組","textPreview":"能用函式完成訂單工具組","textChars":11,"textLines":1,"bbox":[160,449,1000,58]}
+{"kind":"notes","id":"nt/14bup87q","slide":17,"text":""}
+{"kind":"slide","id":"sl/y5wne50z","slide":18,"title":"函式不是把程式變複雜，","textShapes":4}
+{"kind":"textbox","id":"sh/4felwzu5","slide":18,"text":"函式不是把程式變複雜，","textPreview":"函式不是把程式變複雜，","textChars":11,"textLines":1,"bbox":[120,165,1040,60]}
+{"kind":"textbox","id":"sh/wrelszu9","slide":18,"text":"而是把複雜工作拆成容易理解的小工具。","textPreview":"而是把複雜工作拆成容易理解的小工具。","textChars":18,"textLines":1,"bbox":[120,245,1040,70]}
+{"kind":"shape","id":"sh/hsn2l4bu","slide":18,"bbox":[425,390,430,90]}
+{"kind":"textbox","id":"sh/itw3upcf","slide":18,"text":"下一堂：錯誤處理","textPreview":"下一堂：錯誤處理","textChars":8,"textLines":1,"bbox":[455,417,370,42]}
+{"kind":"textbox","id":"sh/je5knut0","slide":18,"text":"作業請為每個函式測試至少三組資料","textPreview":"作業請為每個函式測試至少三組資料","textChars":16,"textLines":1,"bbox":[320,565,640,34]}
+{"kind":"notes","id":"nt/y5wne50z","slide":18,"text":""}
