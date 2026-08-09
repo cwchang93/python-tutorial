@@ -1,4 +1,4 @@
-# 課前複習｜Lesson 01–02
+# 課前複習
 
 每次進入新單元前，先用 10–15 分鐘完成一輪短複習。
 
@@ -11,3 +11,4 @@
 
 - `lesson01_02_review.ipynb`
 - `lesson03_04_review.ipynb`
+- `lesson05_06_review.ipynb`
