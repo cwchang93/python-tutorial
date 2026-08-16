@@ -12,3 +12,4 @@
 - `lesson01_02_review.ipynb`
 - `lesson03_04_review.ipynb`
 - `lesson05_06_review.ipynb`
+- `lesson07_08_review.ipynb`
