@@ -13,8 +13,16 @@
 - 第四堂：[List 深入與 Tuple 入門](lessons/lesson04_list_tuple/README.md)
 - 第五堂：[Dict 深入與 Set 入門](lessons/lesson05_dict_set/README.md)
 - 第六堂：[for 迴圈與資料逐筆處理](lessons/lesson06_for_loops/README.md)
+- 第七堂：[while 迴圈與輸入驗證](lessons/lesson07_while_validation/README.md)
+- 第八堂：[函式 Function](lessons/lesson08_functions/README.md)
+- 第九堂：[錯誤處理與除錯](lessons/lesson09_error_handling/README.md)
+- 第十堂：[模組、檔案與 CSV](lessons/lesson10_modules_files/README.md)
+- 第十一堂：[Git 與 GitHub](lessons/lesson11_git_github/README.md)
+- 第十二堂：[生活記帳小專案](lessons/lesson12_expense_project/README.md)
+- 第十三堂：[資料分析入門：表格與 CSV](lessons/lesson13_tables_csv/README.md)
+- 第十四堂：[Pandas 與 DataFrame](lessons/lesson14_pandas_dataframe/README.md)
 
-目前實際進度完成至 Lesson 02；下一堂從 Lesson 03 條件判斷開始。
+目前教材與程式碼已準備至 Lesson 14；下一階段將進入 DataFrame 欄位選取、條件篩選與排序。
 
 ## 課程定位
 
