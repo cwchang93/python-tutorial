@@ -21,8 +21,10 @@
 - 第十二堂：[生活記帳小專案](lessons/lesson12_expense_project/README.md)
 - 第十三堂：[資料分析入門：表格與 CSV](lessons/lesson13_tables_csv/README.md)
 - 第十四堂：[Pandas 與 DataFrame](lessons/lesson14_pandas_dataframe/README.md)
+- 第十五堂：[Pandas 選取與篩選](lessons/lesson15_pandas_selection/README.md)
+- 第十六堂：[資料清理](lessons/lesson16_data_cleaning/README.md)
 
-目前教材與程式碼已準備至 Lesson 14；下一階段將進入 DataFrame 欄位選取、條件篩選與排序。
+目前教材與程式碼已準備至 Lesson 16；下一階段將進入 `groupby`、`sum`、`mean` 與分類統計。
 
 ## 課程定位
 
