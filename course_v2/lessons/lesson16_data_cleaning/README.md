@@ -20,7 +20,9 @@
 - `lesson16_exercises.ipynb`：25 題課堂練習
 - `lesson16_solutions.ipynb`：教師版完整解答
 - `lesson16_homework.ipynb`：整合型回家作業
-- `../../data/lesson16_orders_dirty.csv`：刻意包含常見品質問題的練習資料
+- `lesson16_orders_dirty.csv`：隨課提供、刻意包含常見品質問題的練習資料
+
+請把 Notebook 與 `lesson16_orders_dirty.csv` 保留在同一個資料夾。程式直接使用相對路徑 `Path("lesson16_orders_dirty.csv")`。
 
 ## 建議教學順序
 
