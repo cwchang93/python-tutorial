@@ -23,8 +23,10 @@
 - 第十四堂：[Pandas 與 DataFrame](lessons/lesson14_pandas_dataframe/README.md)
 - 第十五堂：[Pandas 選取與篩選](lessons/lesson15_pandas_selection/README.md)
 - 第十六堂：[資料清理](lessons/lesson16_data_cleaning/README.md)
+- 第十七堂：[資料整理、統計與 NumPy 橋接](lessons/lesson17_groupby_numpy/README.md)
+- 第十八堂：[Matplotlib 與圖表選擇](lessons/lesson18_visualization/README.md)
 
-目前教材與程式碼已準備至 Lesson 16；下一階段將進入 `groupby`、`sum`、`mean` 與分類統計。
+目前教材與程式碼已準備至 Lesson 18；下一階段將進入資料分析專案工作坊。
 
 ## 課程定位
 

@@ -30,8 +30,8 @@
 | Lesson 14 | Pandas 與 DataFrame | `read_csv`、`head`、`shape`、`columns`、資料型態 |
 | Lesson 15 | Pandas 選取與篩選 | 欄位選取、條件篩選、排序、新增欄位 |
 | Lesson 16 | 資料清理 | 缺失值、重複值、欄位名稱、文字與日期格式 |
-| Lesson 17 | 資料整理與統計 | `groupby`、`sum`、`mean`、`count`、分類統計 |
-| Lesson 18 | 資料視覺化入門 | 圖表選擇、長條圖、折線圖、圓餅圖與解讀 |
+| Lesson 17 | 資料整理、統計與 NumPy 橋接 | `groupby`、`sum`、`mean`、`count`、分類統計；NumPy 陣列、向量化、遮罩與 Pandas 銜接 |
+| Lesson 18 | Matplotlib 與資料視覺化入門 | 圖表選擇、長條圖、折線圖、圓餅圖、散佈圖與解讀 |
 | Lesson 19 | 資料分析專案工作坊一 | 選資料、提問題、清理資料、完成初步分析 |
 | Lesson 20 | 資料分析專案工作坊二 | 完成圖表、整理結論、製作簡報與 GitHub 專案頁面 |
 | Lesson 21 | 成果發表與作品整理 | 展示分析流程、分享 GitHub、規劃後續學習 |
